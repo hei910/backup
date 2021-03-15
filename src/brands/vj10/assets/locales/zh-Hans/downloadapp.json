@@ -1,0 +1,19 @@
+{
+    "desktop": {
+        "description": "为首屈一指的线上博彩网，秉持的「服务至上」的经营理念，致力于为广大的会员玩家们提供最丰富的线上博彩游戏和最优质的客户服务。",
+        "iosHeader": "苹果版下载",
+        "androidHeader": "安卓版下载",
+        "appPlatform": {
+            "ios": {
+                "description": {
+                    "span2": "iOS{{appVersion}}或以上版本"
+                }
+            },
+            "android": {
+                "description": {
+                    "span2": "安卓{{appVersion}}或以上"
+                }
+            }
+        }
+    }
+}

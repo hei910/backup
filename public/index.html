@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+    />
+    <meta
+      name="description"
+      content="%SEO_DESCRIPTION%"
+    />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon_frontend.ico" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/apple-touch-icon.png" sizes="120x120" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/apple-touch-icon.png" sizes="180x180" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/apple-touch-icon.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>%WEB_TITLE%</title>
+    <script>
+        window.parent && window.parent.onCloseGame && window.parent.onCloseGame()
+    </script>
+    <!-- nginx proxy to cdn_403.js if fail -->
+    <script src="%BASE_NAME%/cdn.js"></script>
+</head>
+<body>
+    <noscript>在浏览器中启用JavaScript 以查看此网站</noscript>
+    <div id="root"></div>
+    <script src="%PUBLIC_URL%/polyfill.min.js"></script>
+  </body>
+</html>

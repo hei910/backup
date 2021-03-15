@@ -1,0 +1,42 @@
+{
+    "mobile": {
+        "content1": "即玩畅快享受",
+        "content2": "随时随地投注无局限,立即开始",
+        "downloadNow": "立即下载",
+        "how": "如何安装",
+        "register": "前往注冊",
+        "enjoy": "即时享受565体育，购彩体验！",
+        "ios": {
+            "message1": "iOS系统兼容版本",
+            "message2": "iOS {{appVersion}}或以上版本",
+            "member": {
+                "title": "立即安装iOS系统",
+                "info": "让尊贵的会员享受随时随地玩乐丰富的博彩",
+                "promo": "安装IOS系统，即时享受{{brandName}}，购彩体验！"
+            },
+            "guest": {
+                "title": "成功注册为会员",
+                "info": "让尊贵的会员享受随时随地玩乐丰富的博彩",
+                "promo1": "成功",
+                "promo2": "注册",
+                "promo3": "后即可下载安裝，享受{{brandName}}购彩体验！"
+            }
+        },
+        "android": {
+            "message1": "安卓兼容版本",
+            "message2": "安卓{{appVersion}}或以上版本",
+            "title": "立即下载安卓系统",
+            "info": "让尊贵的会员享受随时随地玩乐丰富的博彩",
+            "promo": "下载安卓系统，即时享受{{brandName}}，购彩体验！"
+        }
+    },
+    "desktop": {
+        "appPlatform": {
+            "android": {
+                "description": {
+                    "span1": "兼容版本"
+                }
+            }
+        }
+    }
+}

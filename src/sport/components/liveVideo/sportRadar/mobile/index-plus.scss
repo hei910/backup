@@ -1,0 +1,162 @@
+.hidden {
+    display: none !important;
+}
+
+
+
+//for tennis 
+.sr-widget-plus {
+    &.mobile {
+        #closeTabBtn {
+            background-color: #bd4700;
+            width: 50px;
+            height: 25px;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .sr-bb {
+            .sr-loader__container {
+                min-height: auto;
+            }
+
+            .sr-lmt-plus__comp-wrapper {
+                z-index: 3;
+
+                .sr-lmt-plus-tabs {
+                    display: none;
+                    border-radius: 10px 10px 0 0;
+                    background-color: $mobile-default-nav-icon-bg !important;
+
+                    .sr-lmt-plus-tabs__tab {
+                        // background-color: $mobile-default-nav-icon-bg !important;
+
+                        &.srm-has-5.srm-tab-btm {
+                            // background-color: $mobile-default-nav-icon-bg !important;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+
+                        &.srm-has-5.srm-tab-btm:first-child {
+                            border-radius: 10px 0 0 0;
+                        }
+
+                        &.srm-has-5.srm-tab-btm:last-child {
+                            border-radius: 0 10px 0 0;
+                        }
+
+                        &.srm-tab-3 .st1 {
+                            path {
+                                fill: $mobile-default-nav-icon-bg !important;
+                            }
+                        }
+
+                        &.srm-tab-4 .st1 {
+                            path {
+                                fill: $mobile-default-nav-icon-bg !important;
+                            }
+                        }
+
+                        &.srt-base-1-primary-7:first-child {
+                            border-radius: 10px 0 0 0;
+                        }
+                    }
+                }
+
+                .sr-lmt-plus__comp:nth-child(3) {
+                    display: none;
+                }
+            }
+
+            .sr-lmt-plus__comp-size {
+                height: auto;
+                overflow: hidden;
+            }
+
+            .sr-loader__container {
+                .sr-lmt-plus__wrapper {
+                    .sr-lmt-plus__footer-wrapper {
+                        min-height: 0 !important;
+                    }
+                }
+            }
+        }
+    }
+
+    &.mobile.show-tab-popup {
+        .sr-bb {
+            .sr-lmt-plus__comp-padding {
+                display: block;
+            }
+
+            .sr-lmt-plus__comp-wrapper {
+                display: flex;
+                align-items: center;
+
+                position: fixed;
+                width: 100%;
+                padding: 10px;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                z-index: 3;
+                overflow: hidden;
+                background-color: rgba(0, 0, 0, 0.8);
+
+                .sr-lmt-plus__comp:nth-child(1) {
+                    display: none;
+                }
+
+                .sr-lmt-plus__comp:nth-child(3) {
+                    display: block;
+                    overflow-y: scroll;
+                }
+            }
+
+            .sr-lmt-plus-tabs__wrapper {
+                background-color: transparent !important;
+            }
+
+            .sr-lmt-plus-tabs {
+                display: block;
+                position: absolute;
+                width: 95%;
+                top: 130px;
+            }
+
+            #tabPageHeader {
+                +.sr-lmt-plus__comp-size {
+                    padding: 20px 0px;
+                    height: calc(100vh - 50px - 54px - 150px) !important;
+                }
+            }
+        }
+
+        .sr-lmt-plus-tabs__wrapper-inner.srt-base-1 {
+            display: flex;
+            border-radius: 10px 10px 0 0;
+            height: 40px;
+            border-bottom: transparent !important;
+
+            .sr-lmt-plus-tabs__tab.srm-tab-btm {
+                &.srt-base-1.srt-text-secondary {
+                    opacity: 1;
+                    border-radius: 0 10px 0 0;
+                    background-color: transparent
+                }
+            }
+        }
+
+        .sr-lmt-plus__comp.srm-topdown {
+            display: block;
+            position: absolute;
+            width: 95%;
+            height: 100% !important;
+            background-color: white;
+            top: 160px;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "testing1": "你好123456HI",
+    "brandName": "Bccc",
+    "general": {
+        "downloadApp": {
+            "description": {
+                "1": "亚洲顶级体育平台，最安全最流畅的游戏体验，",
+                "2": "提供体育、真人美女荷官、高赔率彩票、老虎机游戏应有尽有… ",
+                "3": "投入梦想 注定精彩，请认准{{brandName}}！"
+            }
+        }
+    },
+    "desktop": {},
+    "mobile": {
+        "downloadApp": {
+            "register": "立即注册",
+            "downloadIOS": "点击下载iOS版",
+            "downloadAndroid": "点击下载安卓版",
+            "tutorial": "点击观看安装教学",
+            "safari": "必须使用苹果safari浏览器"
+        }
+    }
+}

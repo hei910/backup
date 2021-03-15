@@ -1,0 +1,42 @@
+{
+    "common": {
+        "title": "转账中心",
+        "dropdown": {
+            "placeholder": "选择产品"
+        },
+        "walletName": {
+            "sport": "体育钱包",
+            "ag": "AG厅/捕鱼",
+            "ky": "开元棋牌",
+            "pt": "PT老虎机"
+        },
+        "amount": "转账金额",
+        "amountPlaceholder": "请输入转账金额",
+        "errors": {
+            "emptyWallet": "请选择钱包",
+            "emptyAmount": "请输入转账金额",
+            "minAmount": "最低转帐额为{{minAmount}}元"
+        },
+        "transferTo": "转入",
+        "collectAll": "全部回收",
+        "fromWallet": "转出钱包",
+        "toWallet": "转入钱包",
+        "selectWallet": "选择转账钱包",
+        "modal": {
+            "confirmCollect": "确认回收到体育钱包?",
+            "confirmTransfer": "确认转入到{{game}}游戏钱包?",
+            "partialTransferFail": "转帐成功，但{{supplierList}}转账失败。请与客服联系"
+        }
+    },
+    "desktop": {
+        "remainAmount": "余额",
+        "collect": "回收",
+        "collectAll": "全收",
+        "totalAmount": "总额"
+    },
+    "mobile": {
+        "walletTitle": "回收钱包：",
+        "transferRemark": "全部帳戶一按回收至",
+        "sportWallet": "体育钱包"
+    }
+}

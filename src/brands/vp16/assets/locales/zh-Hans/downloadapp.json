@@ -1,0 +1,25 @@
+{
+    "common": {
+        "gameList": {
+            "lottery": "彩票大厅"
+        }
+    },
+    "mobile": {
+        "ios": {
+            "member": {
+                "info": "多元化尽情让专贵会员享受随时随地玩乐丰富的博彩"
+            },
+            "guest": {
+                "info": "多元化尽情让专贵会员享受随时随地玩乐丰富的博彩"
+            }
+        },
+        "android": {
+            "info": "多元化尽情让专贵会员享受随时随地玩乐丰富的博彩"
+        }
+    },
+    "desktop": {
+        "header": "使用手机购彩，随时随地轻松下注",
+        "iosHeader": "苹果平台",
+        "androidHeader": "安卓平台"
+    }
+}

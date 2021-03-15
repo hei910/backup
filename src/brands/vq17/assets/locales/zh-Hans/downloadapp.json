@@ -1,0 +1,22 @@
+{
+    "desktop": {
+        "title": {
+            "span1": "专属 APP，",
+            "span2": "随时随地享受在体育畅玩，",
+            "span3": "投注无局限, ",
+            "withBg": "从现在开始"
+        },
+        "appPlatform": {
+            "ios": {
+                "description": {
+                    "span2": "iOS{{appVersion}}或以上版本"
+                }
+            },
+            "android": {
+                "description": {
+                    "span2": "安卓{{appVersion}}或以上版本"
+                }
+            }
+        }
+    }
+}

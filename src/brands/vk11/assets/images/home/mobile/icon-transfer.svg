@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27" height="27" viewBox="0 0 27 27">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1747" data-name="Rectangle 1747" width="27" height="27" transform="translate(1558.69 2249.689)" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff840c"/>
+      <stop offset="1" stop-color="#ffcd00"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.185" stop-color="#fff" stop-opacity="0.988"/>
+      <stop offset="0.329" stop-color="#fff" stop-opacity="0.949"/>
+      <stop offset="0.458" stop-color="#fff" stop-opacity="0.886"/>
+      <stop offset="0.58" stop-color="#fff" stop-opacity="0.792"/>
+      <stop offset="0.696" stop-color="#fff" stop-opacity="0.675"/>
+      <stop offset="0.807" stop-color="#fff" stop-opacity="0.529"/>
+      <stop offset="0.913" stop-color="#fff" stop-opacity="0.361"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.2"/>
+      <stop offset="0.087" stop-color="#fff" stop-opacity="0.361"/>
+      <stop offset="0.193" stop-color="#fff" stop-opacity="0.529"/>
+      <stop offset="0.304" stop-color="#fff" stop-opacity="0.675"/>
+      <stop offset="0.42" stop-color="#fff" stop-opacity="0.792"/>
+      <stop offset="0.542" stop-color="#fff" stop-opacity="0.886"/>
+      <stop offset="0.671" stop-color="#fff" stop-opacity="0.949"/>
+      <stop offset="0.815" stop-color="#fff" stop-opacity="0.988"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="transfer" transform="translate(-1558.69 -2249.689)" clip-path="url(#clip-path)">
+    <g id="Group_2711" data-name="Group 2711">
+      <g id="Rectangle_1745" data-name="Rectangle 1745" transform="translate(1559.69 2252.689)" fill="#fff" stroke="#ff850b" stroke-width="2">
+        <rect width="25" height="7" rx="2" stroke="none"/>
+        <rect x="1" y="1" width="23" height="5" rx="1" fill="none"/>
+      </g>
+      <g id="Group_2710" data-name="Group 2710" transform="translate(1563.596 2255.522)">
+        <g id="Rectangle_1746" data-name="Rectangle 1746" transform="translate(0.094 0.167)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient)">
+          <path d="M0,0H17a0,0,0,0,1,0,0V16a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2V0A0,0,0,0,1,0,0Z" stroke="none"/>
+          <path d="M0-.5H17a.5.5,0,0,1,.5.5V16A2.5,2.5,0,0,1,15,18.5H2A2.5,2.5,0,0,1-.5,16V0A.5.5,0,0,1,0-.5Z" fill="none"/>
+        </g>
+      </g>
+      <g id="Group_2712" data-name="Group 2712" transform="translate(1243.69 2018.69)">
+        <path id="Path_9337" data-name="Path 9337" d="M171.747,146.782a.435.435,0,0,1-.435-.435,3.049,3.049,0,0,0-3.045-3.045h-4.205v1.886a.436.436,0,0,1-.735.315l-3.191-3.045a.435.435,0,0,1,0-.63l3.191-3.045a.435.435,0,0,1,.735.315v1.886h3.626a4.5,4.5,0,0,1,4.5,4.5v.87A.436.436,0,0,1,171.747,146.782Z" transform="translate(473.183 80.35) rotate(90)" fill="url(#linear-gradient-2)"/>
+        <path id="Path_9338" data-name="Path 9338" d="M136.121,231.686V229.8H132.5a4.5,4.5,0,0,1-4.5-4.5v-.87a.435.435,0,0,1,.87,0,3.049,3.049,0,0,0,3.045,3.045h4.205v-1.886a.435.435,0,0,1,.735-.315l3.191,3.045a.435.435,0,0,1,0,.63L136.856,232A.435.435,0,0,1,136.121,231.686Z" transform="translate(553.882 110.609) rotate(90)" fill="url(#linear-gradient-3)"/>
+      </g>
+    </g>
+  </g>
+</svg>

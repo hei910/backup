@@ -1,0 +1,39 @@
+{
+    "desktop": {
+        "header": "{{brandName}} APP",
+        "description": "下载{{brandName}} APP，随时随地享受{{brandName}}畅玩，投注无局限，从现在开始！",
+        "ios": {
+            "system": "iOS系统兼容版本",
+            "version": "iOS 10.1或以上版本"
+        },
+        "android": {
+            "system": "安卓系统兼容版本",
+            "version": "安卓5.0或以上版本"
+        },
+        "app": "{{brandName}} APP 支持产品",
+        "scanQRCode": "请扫描右方二维码下载{{brandName}} APP",
+        "appPlatform": {
+            "ios": {
+                "description": {
+                    "span2": "iOS{{appVersion}}或以上版本"
+                }
+            },
+            "android": {
+                "description": {
+                    "span2": "安卓{{appVersion}}或以上版本"
+                }
+            }
+        }
+    },
+    "common": {
+        "gameList": {
+            "sport": "体育",
+            "liveCasino": "真人",
+            "esport": "电子竞技",
+            "slotMachine": "老虎机",
+            "boardGame": "棋牌",
+            "lottery": "彩票",
+            "fishHunter": "捕鱼"
+        }
+    }
+}

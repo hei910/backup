@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Icon_input" data-name="Icon/input" transform="translate(0)">
+    <g id="icon_input-2" data-name="icon/input">
+      <path id="icon_input-3" data-name="icon/input" d="M14.745,18H7.206v-.01H5.266a1.585,1.585,0,0,1-1.577-1.584V3.18H16.322V16.416A1.585,1.585,0,0,1,14.745,18ZM10,7,7,10.5H8.8V14h2.4V10.5H13ZM2.628,5.292H1.568A1.578,1.578,0,0,1,0,3.707V1.562A1.574,1.574,0,0,1,1.565,0h16.9A1.562,1.562,0,0,1,20,1.581V3.712a1.579,1.579,0,0,1-1.572,1.576H17.373V2.109H2.628V5.291Z" transform="translate(0 1)" fill="#0c186c"/>
+    </g>
+  </g>
+</svg>

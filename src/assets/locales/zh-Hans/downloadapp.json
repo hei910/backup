@@ -1,0 +1,107 @@
+{
+    "common": {
+        "gameList": {
+            "sport": "体育赛事",
+            "liveCasino": "真人荷官",
+            "casino": "老虎机",
+            "lottery": "彩票PK10",
+            "fishHunter": "捕鱼游戏",
+            "slotMachine": "老虎机"
+        },
+        "appSupportDescription": "APP支持产品",
+        "appPlatform": {
+            "ios": {
+                "device": "iPhone",
+                "os": "iOS",
+                "description": {
+                    "span1": "系统兼容版本",
+                    "span2": "iOS {{appVersion}}或以上",
+                    "span3": "*苹果手机下载请使用系统Safari浏览器"
+                }
+            },
+            "android": {
+                "device": "安卓",
+                "os": "安卓",
+                "description": {
+                    "span1": "系统兼容版本",
+                    "span2": "安卓{{appVersion}}或以上"
+                }
+            }
+        }
+    },
+    "mobile": {
+        "appSupportDescription": "APP支持产品",
+        "ios": {
+            "message1": "iOS系统兼容版本",
+            "message2": "iOS {{appVersion}}或以上版本",
+            "member": {
+                "title": "立即安装iOS系统",
+                "info": "多元化尽情让专贵会员享受\n随时随地玩乐丰富的博彩",
+                "promo": "安装IOS系统，即时享受{{brandName}}，购彩体验！"
+            },
+            "guest": {
+                "title": "成功注册为会员",
+                "info": "精彩体验带给每位专贵会员\n掌上有我感受兴奋的博彩",
+                "promo1": "成功",
+                "promo2": "注册",
+                "promo3": "后即可下载安裝，享受{{brandName}}购彩体验！"
+            }
+        },
+        "android": {
+            "message1": "安卓系统兼容版本",
+            "message2": "安卓{{appVersion}}或以上版本",
+            "title": "立即下载安卓系统",
+            "info": "多元化尽情让专贵会员享受\n随时随地玩乐丰富的博彩",
+            "promo": "下载安卓系统，即时享受{{brandName}}，购彩体验！"
+        },
+        "support": "支持产品",
+        "register": "前往注册",
+        "download": "立即下载",
+        "how": "如何安装",
+        "comingSoon": "即将推出"
+    },
+    "desktop": {
+        "appPlatform": {
+            "ios": {
+                "device": "iPhone",
+                "os": "iOS",
+                "description": {
+                    "span1": "系统兼容版本",
+                    "span2": "iOS{{appVersion}}或以上",
+                    "span3": "*苹果手机下载请使用系统Safari浏览器"
+                }
+            },
+            "android": {
+                "device": "安卓",
+                "os": "安卓",
+                "description": {
+                    "span1": "系统兼容版本",
+                    "span2": "安卓{{appVersion}}或以上"
+                }
+            }
+        },
+        "qrCodeDescription": "扫描二维码进行下载",
+        "infoSection": {
+            "about": {
+                "title": "关于{{brandName}}",
+                "content": "欢迎来到首屈一指的线上博彩网-{{brandName}}，作为一家领先国际的娱乐投注公司，自成立以来，{{brandName}}秉持着「服务至上」的经营理念，致力于为广大的会员玩家们提供最丰富的线上博彩游戏和最优质的客户服务。{{brandName}}不断研究开发多元化、高质量的博彩服务系统，提供高品质的娱乐享受，为您呈现独一无二的在线投注体验，包括真人视讯、彩票游戏、电子游戏、体育投注和其他顶级投注游戏。除了丰富的在线博彩游戏、体育博彩和电子游戏可供玩家选择之外，{{brandName}}更有各种奖金返水红利活动、VIP会员回馈计划、代理合营计划等等的服务。{{brandName}}让所有的玩家都能体验到最刺激有趣的在线博彩，获取意想不到的财富，并且找到自己所喜爱的在线博彩游戏获得最完美的娱乐享受！"
+            },
+            "betResponsibility": {
+                "title": "负责任博彩",
+                "content": "{{brandName}}所有客户服务人员都已接受游戏责任声明的培训，我们致力于为会员创造诚信、安全、可靠的博彩体验，{{brandName}}获得菲律宾最具权威的First Cagayan博彩运营牌照，以保证能为会员提供世界一流的服务。 {{brandName}}希望所有的玩家理智的参与游戏，并提昌负责任博彩相关规则条款，禁止未满18岁的人士进行博彩行为，{{brandName}}会在此方面严格执行，让您在{{brandName}}拥有最佳的娱乐体验和博彩服务。"
+            },
+            "payment": {
+                "title": "支付方式",
+                "content": "享受畅通无阻的存提款体验，我们的支付方式快速又安全。{{brandName}}支持全球主要支付方式！只需输入符合要求的存款金额，点击提交即可操作。到帐时间通常约1-10分钟。"
+            },
+            "safety": {
+                "title": "安全与责任"
+            },
+            "contacts": {
+                "csPhone": "客服",
+                "email": "邮箱",
+                "complaintPhone": "投诉"
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "mobile": {
+        "title": "游戏规则",
+        "sports": "体育问题",
+        "liveCasino": "真人荷官",
+        "casino": "老虎机",
+        "lottery": "彩票",
+        "sportHeader": "体育投注规则",
+        "sportOptions": {
+            "sport": "一般体育说明",
+            "or": "冠军投注",
+            "parley": "连串过关/复式过关/组合过关",
+            "football": "足球",
+            "basketball": "篮球",
+            "tennis": "网球",
+            "baseball": "棒球"
+        }
+    }
+}

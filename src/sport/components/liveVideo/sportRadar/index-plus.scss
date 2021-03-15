@@ -1,0 +1,334 @@
+/********************************
+match.plus version (tennis or other sport)
+********************************/
+.hidden {
+    display: none !important;
+}
+
+.enlarged {
+    padding: 0% !important;
+    height: 600px;
+    overflow-y: scroll;
+}
+
+.sr-widget-plus {
+
+    /** 
+    * for live stream overlap sport radar   
+    */
+    &.overlap {
+        .sr-bb {
+            .sr-lmt-plus__wrapper.srt-base-1 {
+                .sr-lmt-plus__comp-wrapper.srm-topdown.srm-hideLmt {
+                    .sr-lmt-plus__comp.srm-topdown.srm-isLmt:nth-child(1) {
+                        .sr-lmt-plus__comp-padding {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .close-widget {
+        position: absolute;
+        top: 20%;
+    }
+
+    .srm-fullyloaded {
+        display: none;
+
+        &.loaded {
+            display: block;
+        }
+    }
+
+    .sr-lmt-plus__comp-wrapper {
+        z-index: 1;
+        // background-color: white;
+
+        i {
+            display: none;
+        }
+
+        .sr-lmt-plus__comp {
+            &.srm-topdown.srm-notLmt {
+                background-color: white;
+            }
+
+            .sr-lmt-plus__comp-padding {
+                min-height: 241px;
+            }
+
+            .sr-lmt-plus__comp-wrap {
+                #tabPageHeader {
+                    position: relative;
+                    bottom: -1px;
+
+                    #tabHeaderTitle {
+                        visibility: hidden;
+                    }
+
+                    +.sr-lmt-plus__comp-size {
+                        position: relative !important;
+                        height: 100% !important;
+
+                        .sr-loader__container {
+                            .sr-lmt-plus-slider__wrapper {
+                                .sr-lmt-plus-slider__slides {
+                                    height: 70%;
+                                }
+                            }
+
+                            .sr-point-by-point__outer.srt-base-1 {
+                                .sr-point-by-point__game-rows-wrapper {
+                                    position: relative !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    .sr-lmt-plus__footer-wrapper {
+        display: none;
+    }
+
+    .sr-lmt-clock {
+        .sr-lmt-clock__wrap.srm-show.srm-delay {
+            visibility: hidden;
+        }
+    }
+
+    .sr-lmt-clock__box.srt-base-1-background.srm-show {
+        display: none;
+    }
+
+    .sr-lmt--state-medium.sr-bb .sr-lmt-clock__box {
+        display: none;
+    }
+
+    .sr-lmt-plus-tabs__border.srm-is-active {
+        opacity: 0;
+    }
+
+    .sr-lmt-plus-tabs__tab {
+        width: 100%;
+        height: 100%;
+        flex: 1 1 0% !important;
+    }
+
+
+    .sr-bb {
+
+        .sr-lmt-tennis-pitch__wrapper {
+            min-height: 241px;
+        }
+
+        .sr-poweredby__wrapper {
+            display: none !important;
+        }
+
+        .sr-lmt-plus-lmtpitch {
+            padding-bottom: 0;
+            min-height: 241px;
+            background-color: #2d2d2d;
+        }
+
+        .sr-tabbedanimnav__border {
+            opacity: 0;
+        }
+
+        .sr-tabbedanimnav__name {
+            padding-bottom: 2px;
+        }
+
+
+        .sr-lmt-plus__comp-wrapper {
+            width: 100%;
+            background: $default-nav-icon-bg;
+            position: relative;
+            display: flex;
+            justify-content: space-around;
+            padding: 0;
+
+            .tab-nav-icon {
+                width: 20px;
+                height: 20px;
+
+                path {
+                    fill: $default-nav-icon;
+                }
+            }
+        }
+
+        .sr-lmt-plus-tabs__wrapper {
+            background-color: $default-nav-icon-bg !important;
+            height: 40px;
+
+            .sr-lmt-plus-tabs__wrapper-inner {
+                height: 100%;
+                background: $default-nav-icon-bg;
+
+                &>div {
+                    padding: 8px 0;
+                }
+            }
+        }
+
+        .sr-lmt-plus-tabs__tab.srm-tab-btm {
+
+            &.srm-has-5 {
+                transition: none;
+
+                .tab-nav-icon {
+                    path {
+                        fill: $default-nav-icon;
+                    }
+                }
+
+                .sr-lmt-plus__nav-tab:after {
+                    color: white;
+                    transition: none;
+                }
+
+                .tab-nav-icon {
+                    path {
+                        fill: $default-nav-icon;
+                    }
+                }
+            }
+
+            /* 
+            ** start close live center
+            */
+            .close-live-center {
+                text-align: center !important;
+                cursor: pointer;
+                transform: rotate(180deg);
+            }
+
+            &.arrow-down>.close-live-center {
+                transform: rotate(0deg);
+            }
+
+            /* 
+            ** end close live center
+            */
+        }
+
+
+        /* couldn't find related
+        .sr-lmt-plus__nav-tab-title {
+            display: none !important;
+        } */
+
+        .srt-base-1-primary-6,
+        .srt-base-1-primary-7,
+        .srt-base-1-primary-8 {
+            color: #2d2d2d;
+        }
+    }
+
+    /*
+    ** change live sport font size
+    */
+    .sr-bb .sr-tabbedanimnav__name.srm-is-font-xs,
+    .sr-bb .sr-header,
+    .sr-bb .sr-momentum__tooltip,
+    .sr-bb .sr-momentum__eventgroup,
+    .sr-bb .sr-momentum__labels,
+    .sr-bb .sr-momentum-5-events__popup,
+    .sr-bb .sr-momentum-5-events__event-name,
+    .sr-bb .sr-momentum-tennis__teams,
+    .sr-bb .sr-momentum-tennis__dropdown,
+    .sr-bb .sr-momentum__team,
+    .sr-bb .sr-goalstats__chart-name,
+    .sr-bb .sr-substitutions__player,
+    .sr-bb .sr-substitutions__time,
+    .sr-bb .sr-match-header-horizontal__status,
+    .sr-bb .sr-match-header-horizontal__last,
+    .sr-bb .sr-match-header-fouls__fouls,
+    .sr-bb .sr-match-header-vertical__last,
+    .sr-bb .sr-match-header-vertical__label,
+    .sr-bb .sr-match-header-vertical__status,
+    .sr-lmt--state-small.sr-bb .sr-lmt-title__wrapper.srm-is-dualplayer,
+    .sr-bb .sr-lmt-title__label.srm-is-small,
+    .sr-lmt--small.sr-bb .sr-lmt-title__label,
+    .sr-bb .sr-lmt-title__label.srm-is-label,
+    .sr-lmt--small.sr-bb .sr-lmt-title__label.srm-is-match-status,
+    .sr-bb .sr-lmt-subs-stats__title,
+    .sr-bb .sr-lmt-subs__player-info,
+    .sr-bb .sr-lmt-evtime.srm-injury,
+    .sr-bb .sr-lmt-evt__team,
+    .sr-lmt--small.sr-bb .sr-lmt-penalties-panel__title1,
+    .sr-lmt--small.sr-bb .sr-lmt-penalties-panel__title2,
+    .sr-lmt--small.sr-bb .sr-lmt-pen-startingteam__title,
+    .sr-lmt--small.sr-bb .sr-lmt-pen-player__text,
+    .sr-bb .sr-lmt-penals__round,
+    .sr-lmt--small.sr-bb .sr-lmt-penals__title,
+    .sr-lmt--state-small.sr-bb .sr-lmt-sit__name,
+    .sr-lmt--state-small.sr-bb .sr-lmt-sit__str,
+    .sr-bb .sr-lmt-bspot__name,
+    .sr-bb .sr-lmt-clock__box,
+    .sr-bb .sr-lmt-clock__time,
+    .sr-lmt--small.sr-bb .sr-lmt-event-goal__time,
+    .sr-lmt--small.sr-bb .sr-lmt-event-corner__t-name,
+    .sr-bb .sr-lmt-ent-dualvalueteam__team-name,
+    .sr-bb .sr-lmt-ent-singlevalue__team,
+    .sr-lmt--small.sr-bb .sr-lmt-ent-singlevalue__team,
+    .sr-lmt--state-small.sr-bb .sr-lmt-entertainment-h2h-wdl__square,
+    .sr-lmt--state-medium.sr-bb .sr-lmt-pill__points-label,
+    .sr-lmt--state-small.sr-bb .sr-lmt-pill__points-label,
+    .sr-lmt--small.sr-bb .sr-lmt-formation__name,
+    .sr-lmt--small.sr-bb .sr-lmt-formation__formation,
+    .sr-lmt--small.sr-bb .sr-lmt-teammanagernames__name,
+    .sr-lmt--small.sr-bb .sr-lmt-teammanagernames__title,
+    .sr-lmt--small.sr-bb .sr-lmt-localderby__name,
+    .sr-lmt--small.sr-bb .sr-lmt-nextmatches__date,
+    .sr-lmt--small.sr-bb .sr-lmt-nextmatches__abbr,
+    .sr-lmt--state-medium.sr-bb .sr-lmt-ent-dualplayerinfo__player-name,
+    .sr-lmt--state-small.sr-bb .sr-lmt-ent-dualplayerinfo__player-name,
+    .sr-lmt--state-medium.sr-bb .sr-lmt-ent-dualplayerinfo__player-info,
+    .sr-lmt--state-small.sr-bb .sr-lmt-ent-dualplayerinfo__player-info,
+    .sr-bb .sr-lmt-winlosestreak__result,
+    .sr-bb .sr-lmt-winlosestreak__opponent,
+    .sr-bb .sr-lmt-odds__title,
+    .sr-lmt--small.sr-bb .sr-lmt-odds__odd,
+    .sr-odd-micro.sr-bb .sr-odd,
+    .sr-lmt--small.sr-bb .sr-lmt-wdl__wdl,
+    .sr-lmt-wdl--small.sr-bb .sr-lmt-wdl__wdl,
+    .sr-lmt--small.sr-bb .sr-lmt-0-ms-title__wrapper,
+    .sr-lmt-0-ms-league-position-form--small.sr-bb .sr-lmt-0-ms-league-position-form__form-label-description,
+    .sr-lmt--small.sr-bb .sr-lmt-0-ms-league-position-form__form-label-description,
+    .sr-lmt-0-ms-league-position-form--small.sr-bb .sr-lmt-0-ms-league-position-form__last-title,
+    .sr-lmt--small.sr-bb .sr-lmt-0-ms-league-position-form__last-title,
+    .sr-bb .sr-lmt-1-ms-matchinfocountdown__name-sub,
+    .sr-lmt--small.sr-bb .sr-lmt-1-ms-matchinfocountdown__text,
+    .sr-bb .sr-lmt-1-ms-matchinfocountdown__halftime,
+    .sr-bb .sr-averagegoalschart__period-holder,
+    .sr-bb .sr-averagegoalschart__side-values-holder,
+    .sr-bb .sr-averagegoalschart__legend,
+    .sr-lmt--small.sr-bb .sr-lmt-matchstatus-odds__title,
+    .sr-lmt--small.sr-bb .sr-lmt-matchstatus-odds__odd,
+    .sr-bb .sr-previous-meetings-graph__labels-label,
+    .sr-bb .sr-sc-win-probability__odds-labels-draw,
+    .sr-bb .sr-sc-win-probability__odds-labels-team-away,
+    .sr-bb .sr-sc-win-probability__odds-labels-team-home,
+    .sr-bb .sr-lmt-1-ms-gamestats__st .sr-general__chart-name,
+    .sr-bb .sr-bulletlistchart__display,
+    .sr-bb .sr-lmt-1-ms-overunder__label,
+    .sr-bb .sr-lmt-1-ms-overunder__offdef,
+    .sr-bb .sr-lmt-1-ms-ballpossesion__title,
+    .sr-lmt--small.sr-bb .sr-lmt-1-ms-ballpossesion__label-sign,
+    .sr-lmt--small.sr-bb .sr-topscorers-hthick__position {
+        font-size: 12px !important;
+    }
+
+    /*
+    ** END change live sport font size
+    */
+}

@@ -1,0 +1,48 @@
+{
+    "mobile": {
+        "topSection": {
+            "mainTitle": "WELCOME",
+            "subTitle": "{{brandName}} ZBO.COM"
+        },
+        "sport": {
+            "mainTitle": "体育赛事",
+            "subTitle": "Sport events"
+        },
+        "liveCasino": {
+            "mainTitle": "真人荷官",
+            "subTitle": "Real dealer"
+        },
+        "esport": {
+            "mainTitle": "电子竞技",
+            "subTitle": "E-sports"
+        },
+        "slotMachine": {
+            "mainTitle": "老虎机",
+            "subTitle": "Slot machine"
+        },
+        "boardGame": {
+            "mainTitle": "棋牌游戏",
+            "subTitle": "Chess and card"
+        },
+        "fishHunter": {
+            "mainTitle": "捕鱼王",
+            "subTitle": "Fish king"
+        },
+        "lottery": {
+            "mainTitle": "彩票PK10",
+            "subTitle": "Ticket PK10"
+        },
+        "downloadApp": {
+            "mainTitle": "APP下载",
+            "subTitle": "iOS / ANDROID"
+        },
+        "friendship": {
+            "mainTitle": "分享赚钱",
+            "subTitle": "Earn Money"
+        },
+        "cs": {
+            "mainTitle": "客服",
+            "subTitle": "Service"
+        }
+    }
+}

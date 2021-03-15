@@ -1,0 +1,4 @@
+*.ts text=auto eol=crlf
+*.js text=auto eol=crlf
+*.tsx text=auto eol=crlf
+*.json text=auto eol=crlf

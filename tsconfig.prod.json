@@ -1,0 +1,42 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "react-jsx",
+        "baseUrl": ".",
+        "paths": {
+            "@html/*": ["src/assets/html/*"],
+            "@images/*": ["src/assets/images/*"],
+            "@utils/*": ["src/utils/*"],
+            "@styles/*": ["src/styles/*"],
+            "@pages": ["src/pages"],
+            "@pages/*": ["src/pages/*"],
+            "@components/*": ["src/components/*"],
+            "@hooks/*": ["src/hooks/*"],
+            "@constants/*": ["src/constants/*"],
+            "@redux": ["src/store"],
+            "@locales": ["src/assets/locales"],
+            "@locales/*": ["src/assets/locales/*"],
+            "@type": ["src/types"],
+            "@type/*": ["src/types/*"],
+            "@brand/*": ["src/*"],
+            "@mixins": ["src/styles/mixins"],
+            "@mixins/*": ["src/styles/mixins/*"],
+            "@services/*": ["src/services/*"],
+            "@app/*": ["src/app/*"],
+            "@sport/*": ["src/sport/*"]
+        }
+    },
+    "include": ["src"]
+}

@@ -1,0 +1,72 @@
+{
+    "mobile": {
+        "directToText": "立即参与",
+        "sections": {
+            "sport": {
+                "mainTitle": "体育",
+                "subTitle": "礼金高达礼金高达礼金高达礼",
+                "cardTitle": "9393体育"
+            },
+            "liveCasino": {
+                "mainTitle": "真人",
+                "subTitle": "返水最高",
+                "cardTitle1": "AG厅",
+                "cardTitle2": "BG厅"
+            },
+            "esport": {
+                "mainTitle": "电子竞技",
+                "subTitle": "ESPORT",
+                "cardTitle1": "泛亚电竞"
+            },
+            "boardGame": {
+                "mainTitle": "棋牌",
+                "cardTitle1": "开元棋牌",
+                "cardTitle2": "NN棋牌"
+            },
+            "casino": {
+                "mainTitle": "老虎机",
+                "subTitle": "返水最高",
+                "cardTitle1": "MG老虎机",
+                "cardTitle2": "DT老虎机",
+                "cardTitle3": "PT老虎机",
+                "cardTitle4": "PG老虎机",
+                "cardTitle5": "CQ9老虎机",
+                "cardTitle6": "JDB老虎机"
+            },
+            "lottery": {
+                "mainTitle": "彩票",
+                "subTitle": "返水最高"
+            },
+            "fishHunter": {
+                "mainTitle": "捕鱼",
+                "subTitle": "返水最高"
+            }
+        },
+        "friendshipBanner": {
+            "title": "{{brandName}}平台推荐",
+            "content": "分享赚钱",
+            "btnText": "点击进入详情 >>"
+        },
+        "jetsoDetailBanner": "更多优惠"
+    },
+    "desktop": {
+        "popularLive": "热门直播",
+        "inLive": "直播中",
+        "loadingLive": "直播赛事载入中",
+        "loadingMatch": "赛事载入中",
+        "noPreMatch":"暂时没有任何赛事",
+        "noLiveMatch": "暂时没有任何直播赛事",
+        "preMatch": "未开赛",
+        "had": "独赢盘",
+        "hadHome": "主胜",
+        "hadDraw": "和局",
+        "hadAway": "客胜",
+        "ah": "让球盘",
+        "ou": "大小盘",
+        "bet": "投注",
+        "football": "足球",
+        "basketball": "篮球",
+        "tennis": "网球",
+        "baseball": "棒球"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "common": {
+        "trial": "试玩",
+        "enter": "立即投注",
+        "emptyDetail": "未有开奖結果",
+        "latest": "新",
+        "period": "第{{period}}期开奖",
+        "appBarBackText": "彩票PK10",
+        "lotoInterval": {
+            "prefix": "第",
+            "postfix1": " 期开奖",
+            "postfix2": "一期全日",
+            "postfix3": "期",
+            "issue": "第 {{issue}} 期开奖",
+            "interval": "每{{intervalNum}}{{timeUnit}}一期全日{{totalNum}}期",
+            "markSixInterval": "{{markSixMonth}}月{{markSixDay}}日开奖",
+            "second": "秒",
+            "minute": "分钟",
+            "day": "日"
+        },
+        "empty": "未有开奖结果"
+    }
+}

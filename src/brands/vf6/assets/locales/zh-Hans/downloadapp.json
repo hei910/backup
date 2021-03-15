@@ -1,0 +1,19 @@
+{
+    "desktop": {
+        "product": "APP支持产品",
+        "apple": "iPhone",
+        "android": "安卓",
+        "system": "系统兼容版本",
+        "iosVer": "iOS 10.1或以上",
+        "androidVer": "安卓5.0或以上"
+    },
+    "mobile": {
+        "title": "IOS 安装教程",
+        "install": "安裝 6686体育 最新APP",
+        "confirmMessage": "请确认安装完成后，再点击",
+        "confirm": "一键信任",
+        "hint": "下滑查看详细安装教程",
+        "versionHint": "请确保您的苹果设备在iOS {{version}} 或以上版本",
+        "description": "APP安装完成后，进行以下设置才能使用。"
+    }
+}

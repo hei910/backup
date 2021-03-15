@@ -1,0 +1,17 @@
+{
+    "brandName": "Bwin",
+    "general":{
+    },
+    "desktop": {
+    },
+    "mobile": {
+        "downloadApp": {
+            "content1": "即玩畅快享受",
+            "content2": "随时随地投注无局限立即开始",
+            "downloadNow": "立即下载",
+            "how": "如何安装",
+            "register": "前往注冊",
+            "enjoy": "即时享受565体育，购彩体验！"
+        }
+    }
+}

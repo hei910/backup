@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27" height="27" viewBox="0 0 27 27">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1739" data-name="Rectangle 1739" width="27" height="27" transform="translate(1558.69 2249.689)" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff840c"/>
+      <stop offset="1" stop-color="#ffcd00"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.2"/>
+      <stop offset="0.087" stop-color="#fff" stop-opacity="0.361"/>
+      <stop offset="0.193" stop-color="#fff" stop-opacity="0.529"/>
+      <stop offset="0.304" stop-color="#fff" stop-opacity="0.675"/>
+      <stop offset="0.42" stop-color="#fff" stop-opacity="0.792"/>
+      <stop offset="0.542" stop-color="#fff" stop-opacity="0.886"/>
+      <stop offset="0.671" stop-color="#fff" stop-opacity="0.949"/>
+      <stop offset="0.815" stop-color="#fff" stop-opacity="0.988"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="deposit" transform="translate(-1558.69 -2249.689)" clip-path="url(#clip-path)">
+    <g id="Group_2707" data-name="Group 2707">
+      <g id="Rectangle_1740" data-name="Rectangle 1740" transform="translate(1559.69 2252.689)" fill="#fff" stroke="#ff850b" stroke-width="2">
+        <rect width="25" height="7" rx="2" stroke="none"/>
+        <rect x="1" y="1" width="23" height="5" rx="1" fill="none"/>
+      </g>
+      <g id="Group_2706" data-name="Group 2706" transform="translate(1563.596 2255.522)">
+        <g id="Rectangle_1741" data-name="Rectangle 1741" transform="translate(0.094 0.167)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient)">
+          <path d="M0,0H17a0,0,0,0,1,0,0V16a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2V0A0,0,0,0,1,0,0Z" stroke="none"/>
+          <path d="M0-.5H17a.5.5,0,0,1,.5.5V16A2.5,2.5,0,0,1,15,18.5H2A2.5,2.5,0,0,1-.5,16V0A.5.5,0,0,1,0-.5Z" fill="none"/>
+        </g>
+        <path id="Path_9335" data-name="Path 9335" d="M8.121.436V2.321H4.5A4.5,4.5,0,0,0,0,6.816v.87a.435.435,0,0,0,.87,0A3.049,3.049,0,0,1,3.916,4.641H8.121V6.527a.435.435,0,0,0,.735.315L12.047,3.8a.435.435,0,0,0,0-.63L8.856.121A.435.435,0,0,0,8.121.436Z" transform="translate(4.766 15.149) rotate(-90)" fill="url(#linear-gradient-2)"/>
+      </g>
+    </g>
+  </g>
+</svg>

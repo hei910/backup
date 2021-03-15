@@ -1,0 +1,462 @@
+@font-face {
+    font-family: 'icomoon_BetRadar';
+    src: url('/fn/d/font/icomoon_BetRadar.eot');
+    src: url('/fn/d/font/icomoon_BetRadar.eot') format('embedded-opentype'),
+        url('/fn/d/font/icomoon_BetRadar.ttf') format('truetype'), url('/font/icomoon_BetRadar.woff') format('woff'),
+        url('/fn/d/font/icomoon_BetRadar.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import '@sport/components/liveVideo/sportRadar/theme';
+@import './index-plus.scss';
+
+/**
+* set switchButton component top position
+*/
+#switch-btn.switch-sr-top {
+    top: 307px;
+}
+
+#closeTabBtn {
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 3px 7px;
+    color: #ffffff;
+    background-color: #ac1a2f;
+}
+
+.hidden {
+    display: none !important;
+}
+
+#tabPageHeader {
+    background: #ffffff;
+    color: #323232;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+}
+
+#tabHeaderTitle {
+    flex: 1;
+}
+
+// momentum for desktop
+.momentum-toggle-panel-wrapper {
+    width: 50px;
+    height: 15px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.momentum-toggle-panel-arrow,
+.momentum-toggle-panel-timeline {
+    height: 100%;
+}
+
+.momentum-toggle-panel-arrow {
+    background-color: rgba(255, 255, 255, 0.4);
+
+    svg {
+        width: 15px;
+        height: 15px;
+        transform: scale(0.8);
+
+        path {
+            fill: rgba(255, 255, 255, 0.8);
+        }
+    }
+
+    &.down {
+        transform: rotate(180deg);
+    }
+}
+
+.momentum-toggle-panel-timeline {
+    svg {
+        width: 25px;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.8);
+
+        path {
+            transform: scale(1.1);
+        }
+    }
+}
+
+/*
+** show loading icon
+*/
+#loading-icon {
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: url("/fn/d/img/icon/svg/icon_loading_circle.svg") 0 0 no-repeat;
+    animation: play 2s steps(17, end) infinite;
+    top: 0;
+    left: calc(50% - 25px);
+    background-size: 50px auto;
+    z-index: 9;
+}
+
+#loading-icon.mobile {
+    top: 20%;
+    background: url("/fn/m/img/icon/svg/icon_loading_circle.svg") 0 0 no-repeat;
+}
+
+#loading-icon.desktop {
+    top: 5%;
+    background: url("/fn/d/img/icon/svg/icon_loading_circle.svg") 0 0 no-repeat;
+}
+
+@keyframes play {
+    from {
+        background-position: 0px 0px;
+    }
+
+    to {
+        background-position: 0px -850px;
+    }
+}
+
+/*
+**  Endshow loading icon
+*/
+
+
+/********************************
+match.custom version (football and basketball)
+********************************/
+.sr-widget-custom {
+
+    /**
+    * for live stream overlap sport radar
+    */
+    &.overlap {
+        .sr-bb {
+            .sr-soccer-lmtcustom__lmt-wrap {
+                display: none;
+            }
+        }
+    }
+
+    .close-widget {
+        position: absolute;
+        top: 20%;
+    }
+
+    .srm-fullyloaded {
+        display: none;
+
+        &.loaded {
+            display: block;
+        }
+    }
+
+    .sr-soccer-lmtcustom__wrapper {
+        z-index: 1;
+        background-color: white;
+
+        i {
+            display: none;
+        }
+    }
+
+    .sr-lmt-clock {
+        .sr-lmt-clock__wrap.srm-show.srm-delay {
+            visibility: hidden;
+        }
+    }
+
+    .sr-lmt-clock__box.srt-base-1-background.srm-show {
+        display: none;
+    }
+
+    .sr-lmt--state-medium.sr-bb .sr-lmt-clock__box {
+        display: none;
+    }
+
+    .sr-tabbedanimnav__selected {
+        opacity: 0;
+    }
+
+    .sr-soccer-lmtcustom__nav-tab {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sr-bb {
+
+        .sr-lmt-pitch-soccer__container,
+        .sr-lmt-basketball-pitch__wrapper {
+            min-height: 241px;
+        }
+
+        .sr-poweredby__wrapper {
+            display: none !important;
+        }
+
+        .sr-soccer-lmtcustom__lmt-wrap {
+            padding-bottom: 0;
+            min-height: 241px;
+            background-color: #2d2d2d;
+        }
+
+        .sr-tabbedanimnav__border {
+            opacity: 0;
+        }
+
+        .sr-tabbedanimnav__name {
+            padding-bottom: 2px;
+        }
+
+        .sr-tabbedanimnav__wrapper {
+            height: 40px;
+            width: 100%;
+            background: $default-nav-icon-bg;
+            position: relative;
+            display: flex;
+            justify-content: space-around;
+            padding: 0;
+
+            &>div {
+                padding: 8px 0;
+            }
+
+            .tab-nav-icon {
+                width: 20px;
+                height: 20px;
+
+                path {
+                    fill: $default-nav-icon;
+                }
+
+                &:hover path {
+                    fill: $default-nav-icon-active;
+                }
+            }
+        }
+
+        .sr-tabbedanimnav__switch {
+            background-color: $default-nav-icon-bg-active !important;
+
+            &.srt-base-1.srt-text-secondary {
+                opacity: 1;
+                transition: none;
+                background-color: $default-nav-icon-bg !important;
+                color: #fff;
+
+                .sr-soccer-lmtcustom__nav-tab-icon {
+                    fill: #b4b4b4 !important;
+                }
+
+                .sr-soccer-lmtcustom__nav-tab-icon.srt-fill-primary-7 {
+                    display: none !important;
+                }
+            }
+
+            &.srt-text-secondary:hover {
+                background-color: $default-nav-icon-bg-active !important;
+                color: #2d2d2d;
+
+                .sr-soccer-lmtcustom__nav-tab-icon {
+                    fill: #2d2d2d !important;
+                }
+            }
+
+            &.srt-base-1-primary-7 {
+                transition: none;
+
+                .sr-soccer-lmtcustom__nav-tab:after {
+                    color: white;
+                    transition: none;
+                }
+
+                .tab-nav-icon {
+                    path {
+                        fill: $default-nav-icon-active;
+                    }
+                }
+            }
+
+            /*
+            ** start close live center
+            */
+            .close-live-center {
+                text-align: center !important;
+                cursor: pointer;
+                transform: rotate(180deg);
+            }
+
+            &.arrow-down>.close-live-center {
+                transform: rotate(0deg);
+            }
+
+            /*
+            ** end close live center
+            */
+        }
+
+        .sr-soccer-lmtcustom__nav-tab-title {
+            display: none !important;
+        }
+
+        .srt-base-1-primary-6,
+        .srt-base-1-primary-7,
+        .srt-base-1-primary-8 {
+            color: #2d2d2d;
+        }
+    }
+
+    &.football {
+        .sr-bb {
+            .sr-tabbedanimnav__switch.srt-base-1 {
+                transition: none;
+            }
+
+            .sr-tabbedanimnav__wrapper>div {
+                width: 16.6% !important;
+            }
+        }
+
+        .close-live-center {
+            width: 16.6%;
+        }
+    }
+
+    &.basketball {
+        .sr-bb {
+            .sr-tabbedanimnav__switch.srt-base-1 {
+                transition: none;
+            }
+
+            .sr-tabbedanimnav__wrapper>div {
+                width: 20% !important;
+            }
+
+            /* sport radar default color #0072b1 */
+            .sr-lmt-basketball-pitch__pitch-side-area,
+            .sr-lmt-basketball-pitch__free-throw-border.srm-def-bg-clr,
+            .sr-lmt-basketball-pitch__free-throw-lane.srm-def-bg-clr {
+                background-color: #aa6a2d !important;
+            }
+
+            .sr-lmt-ft__free-throw-area.srm-def-fill {
+                fill: #aa6a2d !important;
+            }
+        }
+
+        .close-live-center {
+            width: 20%;
+        }
+    }
+
+    /*
+    ** change live sport font size
+    */
+    .sr-bb .sr-tabbedanimnav__name.srm-is-font-xs,
+    .sr-bb .sr-header,
+    .sr-bb .sr-momentum__tooltip,
+    .sr-bb .sr-momentum__eventgroup,
+    .sr-bb .sr-momentum__labels,
+    .sr-bb .sr-momentum-5-events__popup,
+    .sr-bb .sr-momentum-5-events__event-name,
+    .sr-bb .sr-momentum-tennis__teams,
+    .sr-bb .sr-momentum-tennis__dropdown,
+    .sr-bb .sr-momentum__team,
+    .sr-bb .sr-goalstats__chart-name,
+    .sr-bb .sr-substitutions__player,
+    .sr-bb .sr-substitutions__time,
+    .sr-bb .sr-match-header-horizontal__status,
+    .sr-bb .sr-match-header-horizontal__last,
+    .sr-bb .sr-match-header-fouls__fouls,
+    .sr-bb .sr-match-header-vertical__last,
+    .sr-bb .sr-match-header-vertical__label,
+    .sr-bb .sr-match-header-vertical__status,
+    .sr-lmt--state-small.sr-bb .sr-lmt-title__wrapper.srm-is-dualplayer,
+    .sr-bb .sr-lmt-title__label.srm-is-small,
+    .sr-lmt--small.sr-bb .sr-lmt-title__label,
+    .sr-bb .sr-lmt-title__label.srm-is-label,
+    .sr-lmt--small.sr-bb .sr-lmt-title__label.srm-is-match-status,
+    .sr-bb .sr-lmt-subs-stats__title,
+    .sr-bb .sr-lmt-subs__player-info,
+    .sr-bb .sr-lmt-evtime.srm-injury,
+    .sr-bb .sr-lmt-evt__team,
+    .sr-lmt--small.sr-bb .sr-lmt-penalties-panel__title1,
+    .sr-lmt--small.sr-bb .sr-lmt-penalties-panel__title2,
+    .sr-lmt--small.sr-bb .sr-lmt-pen-startingteam__title,
+    .sr-lmt--small.sr-bb .sr-lmt-pen-player__text,
+    .sr-bb .sr-lmt-penals__round,
+    .sr-lmt--small.sr-bb .sr-lmt-penals__title,
+    .sr-lmt--state-small.sr-bb .sr-lmt-sit__name,
+    .sr-lmt--state-small.sr-bb .sr-lmt-sit__str,
+    .sr-bb .sr-lmt-bspot__name,
+    .sr-bb .sr-lmt-clock__box,
+    .sr-bb .sr-lmt-clock__time,
+    .sr-lmt--small.sr-bb .sr-lmt-event-goal__time,
+    .sr-lmt--small.sr-bb .sr-lmt-event-corner__t-name,
+    .sr-bb .sr-lmt-ent-dualvalueteam__team-name,
+    .sr-bb .sr-lmt-ent-singlevalue__team,
+    .sr-lmt--small.sr-bb .sr-lmt-ent-singlevalue__team,
+    .sr-lmt--state-small.sr-bb .sr-lmt-entertainment-h2h-wdl__square,
+    .sr-lmt--state-medium.sr-bb .sr-lmt-pill__points-label,
+    .sr-lmt--state-small.sr-bb .sr-lmt-pill__points-label,
+    .sr-lmt--small.sr-bb .sr-lmt-formation__name,
+    .sr-lmt--small.sr-bb .sr-lmt-formation__formation,
+    .sr-lmt--small.sr-bb .sr-lmt-teammanagernames__name,
+    .sr-lmt--small.sr-bb .sr-lmt-teammanagernames__title,
+    .sr-lmt--small.sr-bb .sr-lmt-localderby__name,
+    .sr-lmt--small.sr-bb .sr-lmt-nextmatches__date,
+    .sr-lmt--small.sr-bb .sr-lmt-nextmatches__abbr,
+    .sr-lmt--state-medium.sr-bb .sr-lmt-ent-dualplayerinfo__player-name,
+    .sr-lmt--state-small.sr-bb .sr-lmt-ent-dualplayerinfo__player-name,
+    .sr-lmt--state-medium.sr-bb .sr-lmt-ent-dualplayerinfo__player-info,
+    .sr-lmt--state-small.sr-bb .sr-lmt-ent-dualplayerinfo__player-info,
+    .sr-bb .sr-lmt-winlosestreak__result,
+    .sr-bb .sr-lmt-winlosestreak__opponent,
+    .sr-bb .sr-lmt-odds__title,
+    .sr-lmt--small.sr-bb .sr-lmt-odds__odd,
+    .sr-odd-micro.sr-bb .sr-odd,
+    .sr-lmt--small.sr-bb .sr-lmt-wdl__wdl,
+    .sr-lmt-wdl--small.sr-bb .sr-lmt-wdl__wdl,
+    .sr-lmt--small.sr-bb .sr-lmt-0-ms-title__wrapper,
+    .sr-lmt-0-ms-league-position-form--small.sr-bb .sr-lmt-0-ms-league-position-form__form-label-description,
+    .sr-lmt--small.sr-bb .sr-lmt-0-ms-league-position-form__form-label-description,
+    .sr-lmt-0-ms-league-position-form--small.sr-bb .sr-lmt-0-ms-league-position-form__last-title,
+    .sr-lmt--small.sr-bb .sr-lmt-0-ms-league-position-form__last-title,
+    .sr-bb .sr-lmt-1-ms-matchinfocountdown__name-sub,
+    .sr-lmt--small.sr-bb .sr-lmt-1-ms-matchinfocountdown__text,
+    .sr-bb .sr-lmt-1-ms-matchinfocountdown__halftime,
+    .sr-bb .sr-averagegoalschart__period-holder,
+    .sr-bb .sr-averagegoalschart__side-values-holder,
+    .sr-bb .sr-averagegoalschart__legend,
+    .sr-lmt--small.sr-bb .sr-lmt-matchstatus-odds__title,
+    .sr-lmt--small.sr-bb .sr-lmt-matchstatus-odds__odd,
+    .sr-bb .sr-previous-meetings-graph__labels-label,
+    .sr-bb .sr-sc-win-probability__odds-labels-draw,
+    .sr-bb .sr-sc-win-probability__odds-labels-team-away,
+    .sr-bb .sr-sc-win-probability__odds-labels-team-home,
+    .sr-bb .sr-lmt-1-ms-gamestats__st .sr-general__chart-name,
+    .sr-bb .sr-bulletlistchart__display,
+    .sr-bb .sr-lmt-1-ms-overunder__label,
+    .sr-bb .sr-lmt-1-ms-overunder__offdef,
+    .sr-bb .sr-lmt-1-ms-ballpossesion__title,
+    .sr-lmt--small.sr-bb .sr-lmt-1-ms-ballpossesion__label-sign,
+    .sr-lmt--small.sr-bb .sr-topscorers-hthick__position {
+        font-size: 12px !important;
+    }
+
+    /*
+    ** END change live sport font size
+    */
+}

@@ -1,0 +1,48 @@
+@import 'mixin';
+
+$default: ('nav-icon': #999,
+    'nav-icon-active': #999,
+    'nav-icon-active-testing': yellow,
+    'nav-icon-bg': #2d2d2d,
+    'nav-icon-bg-active': #555,
+    'mobile-nav-icon-bg': white,
+    'mobile-nav-icon': #bd4700,
+);
+
+$darkTheme: ('nav-icon': #6d5b14,
+    'nav-icon-active': #f9cc1b,
+    'nav-icon-bg': #2d2d2d,
+    'nav-icon-bg-active': #c2ab47,
+    'mobile-nav-icon-bg': #2d2d2d,
+    'mobile-nav-icon': #f9cc1b,
+);
+
+// default color
+$default-nav-icon: theme($default, 'nav-icon');
+$default-nav-icon-active: theme($default, 'nav-icon-active');
+$default-nav-icon-active-testing: theme($default, 'nav-icon-active-testing');
+$default-nav-icon-bg: theme($default, 'nav-icon-bg');
+$default-nav-icon-bg-active: theme($default, 'nav-icon-bg-active');
+$mobile-default-nav-icon-bg: theme($default, 'mobile-nav-icon-bg');
+$mobile-default-nav-icon: theme($default, 'mobile-nav-icon');
+
+/******************
+* Add new theme into themes object
+******************/
+$themes: ('defaultTheme': ('themeName': 'default',
+        'navIcon': theme($default, 'nav-icon'),
+        'navIconActive': theme($default, 'nav-icon-active'),
+        'navIconBg': theme($default, 'nav-icon-bg'),
+        'navIconBgActive': theme($default, 'nav-icon-bg-active'),
+        'mobileNavIconBg': theme($default, 'mobile-nav-icon-bg'),
+        'mobileNavIcon': theme($default, 'mobile-nav-icon'),
+    ),
+    'darkTheme': ('themeName': 'dark',
+        'navIcon': theme($darkTheme, 'nav-icon'),
+        'navIconActive': theme($darkTheme, 'nav-icon-active'),
+        'navIconBg': theme($darkTheme, 'nav-icon-bg'),
+        'navIconBgActive': theme($darkTheme, 'nav-icon-bg-active'),
+        'mobileNavIconBg': theme($darkTheme, 'mobile-nav-icon-bg'),
+        'mobileNavIcon': theme($darkTheme, 'mobile-nav-icon'),
+    ),
+);

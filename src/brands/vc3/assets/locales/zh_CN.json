@@ -1,0 +1,102 @@
+{
+    "testing1": "你好123456HI",
+    "brandName": "HG9393",
+    "general": {
+        "slotMachine": {
+            "emptyResult": {
+                "span1": "搜寻结果",
+                "span2": "共搜索到0条关于“{{searchWord}}”的结果。",
+                "span3": "暂无相关内容"
+            }
+        }
+    },
+    "desktop": {
+        "home": {
+            "popularLive": "热门直播",
+            "inLive": "直播中",
+            "loadingLive": "直播赛事载入中",
+            "loadingMatch": "赛事载入中",
+            "noPreMatch":"暂时没有任何赛事",
+            "noLiveMatch": "暂时没有任何直播赛事",
+            "preMatch": "未开赛",
+            "had": "独赢盘",
+            "hadHome": "主胜",
+            "hadDraw": "和局",
+            "hadAway": "客胜",
+            "ah": "让球盘",
+            "ou": "大小盘",
+            "bet": "投注",
+            "football": "足球",
+            "basketball": "篮球",
+            "tennis": "网球",
+            "baseball": "棒球"
+        },
+        "downloadApp": {
+            "header": "{{brandName}} APP",
+            "description": "下载{{brandName}} APP，随时随地享受{{brandName}}畅玩，投注无局限，从现在开始！",
+
+            "ios": {
+                "system": "iOS系统兼容版本",
+                "version": "iOS 10.1或以上版本"
+            },
+            "android": {
+                "system": "安卓系统兼容版本",
+                "version": "安卓5.0或以上版本"
+            },
+            "app": "{{brandName}} APP 支持产品",
+            "scanQRCode": "请扫描右方二维码下载{{brandName}} APP"
+        }
+    },
+    "mobile": {
+        "home": {
+            "about": "关于",
+            "directToText": "立即参与",
+            "licensesTitle": "正规牌照",
+            "sections": {
+                "sport": {
+                    "mainTitle": "体育",
+                    "subTitle": "礼金高达",
+                    "cardTitle": "9393体育"
+                },
+                "liveCasino": {
+                    "mainTitle": "真人",
+                    "cardTitle1": "AG厅",
+                    "cardTitle2": "BG厅"
+                },
+                "boardGame": {
+                    "mainTitle": "棋牌",
+                    "cardTitle1": "开元棋牌",
+                    "cardTitle2": "NN棋牌"
+                },
+                "casino": {
+                    "mainTitle": "老虎机",
+                    "cardTitle1": "MG老虎机",
+                    "cardTitle2": "DT老虎机",
+                    "cardTitle3": "PT老虎机",
+                    "cardTitle4": "PG老虎机",
+                    "cardTitle5": "CQ9老虎机",
+                    "cardTitle6": "JDB老虎机"
+                },
+                "lottery": {
+                    "mainTitle": "彩票"
+                },
+                "fishHunter": {
+                    "mainTitle": "捕鱼",
+                    "subTitle": "返水最高"
+                },
+                "esport": {
+                    "mainTitle": "电竞"
+                }
+            },
+            "friendshipBanner": {
+                "title": "{{brandName}}平台推荐",
+                "content": "分享赚钱",
+                "btnText": "点击进入详情 >>"
+            },
+            "jetsoDetailBanner": "更多优惠"
+        },
+        "footer": {
+            "content": "{{brandName}}是受国际博彩协会认可的合法博彩公司。进行注册并娱乐前，请确保您年满18周岁！"
+        }
+    }
+}

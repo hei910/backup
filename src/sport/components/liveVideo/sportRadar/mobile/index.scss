@@ -1,0 +1,146 @@
+@import '@sport/components/liveVideo/sportRadar/theme';
+@import '@sport/components/liveVideo/sportRadar/mixin';
+@import './index-plus.scss';
+
+
+
+body.no-scrolling {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+}
+
+//for football and basketball
+.sr-widget-custom {
+    &.mobile {
+        #closeTabBtn {
+            background-color: #bd4700;
+            width: 50px;
+            height: 25px;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .sr-bb {
+            .sr-loader__container {
+                min-height: auto;
+            }
+
+            .sr-soccer-lmtcustom__wrapper {
+                z-index: 3;
+            }
+
+            .sr-soccer-lmtcustom__cmp-wrap {
+                display: none;
+            }
+
+            .sr-soccer-lmtcustom__tab-cont {
+                height: auto;
+                // min-height: 75px;
+                min-height: calc(100vh - 205px);
+                background-color: white;
+                overflow: hidden;
+            }
+
+            .sr-tabbedanimnav__wrapper {
+                display: none;
+                border-radius: 10px 10px 0 0;
+                background-color: $mobile-default-nav-icon-bg !important;
+
+                .sr-tabbedanimnav__switch {
+                    background-color: $mobile-default-nav-icon-bg !important;
+
+                    &.srt-base-1.srt-text-secondary {
+                        // background-color: $mobile-default-nav-icon-bg !important;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                    &.srt-base-1.srt-text-secondary:first-child {
+                        border-radius: 10px 0 0 0;
+                    }
+
+                    &.srt-base-1.srt-text-secondary:last-child {
+                        border-radius: 0 10px 0 0;
+                    }
+
+                    &[data='3'],
+                    &[data='4'] {
+                        .st1 {
+                            path {
+                                fill: $mobile-default-nav-icon-bg;
+                            }
+                        }
+                    }
+
+                    &.srt-base-1-primary-7 {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        .tab-nav-icon {
+
+                            path,
+                            circle {
+                                fill: $mobile-default-nav-icon;
+                            }
+                        }
+
+                        &[data='3'] .st1 {
+                            path {
+                                fill: $mobile-default-nav-icon-bg !important;
+                            }
+                        }
+
+                        &[data='4'] .st1 {
+                            path {
+                                fill: $mobile-default-nav-icon-bg !important;
+                            }
+                        }
+                    }
+
+                    &.srt-base-1-primary-7:first-child {
+                        border-radius: 10px 0 0 0;
+                    }
+                }
+            }
+        }
+    }
+
+    &.mobile.show-tab-popup {
+        .sr-bb {
+            .sr-soccer-lmtcustom__wrapper {
+                position: fixed;
+                width: 100%;
+                padding: 10px;
+                padding-top: 115px;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                z-index: 3;
+                overflow-y: scroll;
+                background-color: rgba(0, 0, 0, 0.8);
+
+                .sr-soccer-lmtcustom__lmt-wrap {
+                    display: none;
+                }
+            }
+        }
+
+        .sr-tabbedanimnav__wrapper {
+            display: flex;
+        }
+
+        .sr-soccer-lmtcustom__cmp-wrap {
+            display: block;
+        }
+    }
+}
+
+@each $theme in map-keys($themes) {
+    @include srThemeGeneratorMobile(map-get($themes, $theme));
+}

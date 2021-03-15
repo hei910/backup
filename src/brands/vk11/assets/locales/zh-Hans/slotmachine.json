@@ -1,0 +1,12 @@
+{
+    "mobile": {
+        "banner": "老虎机游戏",
+        "hotGames": {
+            "start": "进入游戏"
+        },
+        "emptyResult": {
+            "span1": "搜寻结果",
+            "span2": "暂无相关内容"
+        }
+    }
+}

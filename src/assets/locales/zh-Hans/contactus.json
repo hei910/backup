@@ -1,0 +1,47 @@
+{
+    "mobile": {
+        "title": "联系我们",
+        "emailTitle": "电子邮件",
+        "emailDetail": "24小时全天服务",
+        "mobileTitle": "电话咨询",
+        "mobileDetail1": "客服",
+        "mobileDetail2": "投诉",
+        "csTitle": "在线客服",
+        "csDetail1": "24小时全天候咨询客户服务人员",
+        "csDetail2": "打开在线咨询"
+    },
+    "desktop": {
+        "header": "联系我们",
+        "cs": {
+            "title": "在线咨询",
+            "content": {
+                "span1": "24小时全天候咨询客户服务人员",
+                "span2": "打开在线咨询"
+            }
+        },
+        "phone": {
+            "title": "电话咨询",
+            "content": {
+                "span1": "我们的客户服务人员将通过电话为您提供24小时全天服务。请您拨打以下电话联系我们",
+                "span2": "客服",
+                "span3": "投诉"
+            }
+        },
+        "email": {
+            "title": "电子邮件",
+            "content": {
+                "span1": "24小时全天服务"
+            }
+        },
+        "qr": {
+            "title": {
+                "qq": "联系QQ客服",
+                "wx": "联系微信客服"
+            },
+            "content": {
+                "qq": "扫一扫添加QQ客服咨询",
+                "wx": "扫一扫添加微信客服咨询"
+            }
+        }
+    }
+}

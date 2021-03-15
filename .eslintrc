@@ -1,0 +1,55 @@
+{
+    "extends": ["react-app", "eslint-config-react-app/base"],
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["prettier", "jsx-a11y"],
+    "rules": {
+        "react/jsx-no-target-blank": "off",
+        "react/jsx-uses-react": "off",
+        "react/react-in-jsx-scope": "off",
+        "no-var": "error",
+        "no-restricted-imports": [
+            "error",
+            {
+                "paths": [
+                    {
+                        "name": "styled-components",
+                        "message": "Please import from styled-components/macro."
+                    },
+                    {
+                        "name": "use-resize-observer",
+                        "message": "Please import from use-resize-observer/polyfilled."
+                    }
+                ],
+                "patterns": ["!styled-components/macro", "!use-resize-observer/polyfilled"]
+            }
+        ],
+        "comma-spacing": ["error", { "before": false, "after": true }],
+        "object-curly-spacing": ["warn", "always"],
+        "arrow-spacing": ["error", { "before": true, "after": true }],
+        "eqeqeq": ["error", "always"],
+        "space-infix-ops": ["error", { "int32Hint": false }],
+        "indent": ["error", 4, {
+            "SwitchCase": 1
+        }],
+        "import/no-anonymous-default-export": "off",
+        "jsx-a11y/alt-text": "off",
+        "jsx-a11y/anchor-has-content": "off",
+        "jsx-a11y/anchor-is-valid": "off",
+        "jsx-a11y/aria-activedescendant-has-tabindex": "off",
+        "jsx-a11y/aria-props": "off",
+        "jsx-a11y/aria-proptypes": "off",
+        "jsx-a11y/aria-role": "off",
+        "jsx-a11y/aria-unsupported-elements": "off",
+        "jsx-a11y/heading-has-content": "off",
+        "jsx-a11y/iframe-has-title": "off",
+        "jsx-a11y/img-redundant-alt": "off",
+        "jsx-a11y/no-access-key": "off",
+        "jsx-a11y/no-distracting-elements": "off",
+        "jsx-a11y/no-redundant-roles": "off",
+        "jsx-a11y/role-has-required-aria-props": "off",
+        "jsx-a11y/role-supports-aria-props": "off",
+        "jsx-a11y/scope": "off"
+    },
+    "globals": { "__COMMIT_HASH__": true }
+}
+clone

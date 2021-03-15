@@ -1,0 +1,6 @@
+{
+    "common": {
+        "customInterval": "第 {{customIssue}} 期开奖 每{{customInterval}}{{customTimeUnit}}一期全日{{customTotal}}期",
+        "customMarkSixInterval": "第 {{customIssue}} 期开奖 {{markSixMonth}}月{{markSixDay}}日开奖"
+    }
+}

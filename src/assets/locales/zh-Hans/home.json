@@ -1,0 +1,16 @@
+{
+    "common": {
+        "homePage": ""
+    },
+    "mobile": {
+        "sport": "体育赛事",
+        "liveCasino": "真人荷官",
+        "esport": "电子竞技",
+        "casino": "老虎机",
+        "boardGame": "棋牌游戏",
+        "lottery": "彩票PK10",
+        "fishHunter": "捕鱼游戏",
+        "appDownload": "APP下载",
+        "friendships": "分享赚钱"
+    }
+}

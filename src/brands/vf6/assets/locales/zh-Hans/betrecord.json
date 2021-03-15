@@ -1,0 +1,41 @@
+{
+    "mobile": {
+        "options": {
+            "ky": "开元棋牌"
+        }
+    },
+    "desktop": {
+        "betCategories": {
+            "sportV2": "体育",
+            "sportV1": "体育",
+            "sports-settled-bet": "体育",
+            "sports-unsettled-bet": "体育",
+            "bg": "BG厅",
+            "ag": "AG厅/捕鱼游戏",
+            "mg": "MG老虎机",
+            "dt": "DT老虎机",
+            "ky": "开元棋牌",
+            "loto": "彩票",
+            "lottery-settled-bet": "彩票",
+            "lottery-unsettled-bet": "彩票"
+        },
+        "navBarTitles": {
+            "all-bet": "全部注单",
+            "sportV2": "全部注单",
+            "sports-settled-bet": "已结算注单",
+            "sports-unsettled-bet": "未结算注单",
+            "bg": "BG厅",
+            "ag": "AG厅/捕鱼游戏",
+            "mg": "MG老虎机",
+            "dt": "DT老虎机",
+            "ky": "开元棋牌",
+            "transaction-history-deposit": "存款",
+            "transaction-history-withdrawal": "提款",
+            "transaction-history-transfer": "转账",
+            "loto": "全部注单",
+            "lottery-settled-bet": "已结算注单",
+            "lottery-unsettled-bet": "未结算注单",
+            "summary": "摘要"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "common": {
+        "forbiddenAccess": "访问受限制",
+        "dear": "亲爱的用户",
+        "description": {
+            "1": "由于您的",
+            "specialColor": "国家和地区限制",
+            "2": "，我们无法为您提供服务。",
+            "3": "我们很抱歉给您带来不便，非常感谢您的支持！"
+        },
+        "ipText": "阁下现在的IP为",
+        "cs": "在线客服",
+        "contacts": {
+            "csPhone": "客服热线",
+            "complaintPhone": "投诉热线",
+            "email": "电子邮箱"
+        }
+    }
+}

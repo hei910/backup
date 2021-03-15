@@ -1,0 +1,247 @@
+@function theme($theme, $key) {
+    @return map-get($theme, $key);
+}
+
+// theme generator for desktop sr navbar
+@mixin srThemeGeneratorDesktop($theme) {
+    .sr-widget-custom.desktop.#{theme($theme, 'themeName')} {
+        .sr-bb {
+            .sr-tabbedanimnav__wrapper {
+                background-color: theme($theme, 'navIconBg');
+
+                .tab-nav-icon {
+                    path {
+                        fill: theme($theme, 'navIcon');
+                    }
+
+                    &:hover path {
+                        fill: theme($theme, 'navIconActive');
+                    }
+                }
+
+                .sr-tabbedanimnav__switch {
+                    background-color: theme($theme, 'navIconBgActive') !important;
+
+                    &.srt-base-1.srt-text-secondary {
+                        background-color: theme($theme, 'navIconBg') !important;
+                    }
+
+                    &.srt-text-secondary:hover {
+                        background-color: theme($theme, 'navIconBgActive') !important;
+
+                        .tab-nav-icon {
+                            path {
+                                fill: theme($theme, 'navIconActive');
+                            }
+                        }
+                    }
+
+                    &.srt-base-1-primary-7 {
+                        .tab-nav-icon {
+                            path {
+                                fill: theme($theme, 'navIconActive');
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .sr-widget-plus.desktop.#{theme($theme, 'themeName')} {
+
+        .sr-bb {
+            .sr-lmt-plus-tabs__wrapper-inner.srt-base-1 {
+                background-color: theme($theme, 'navIconBg');
+
+                .tab-nav-icon {
+
+                    path,
+                    circle {
+                        fill: theme($theme, 'navIcon');
+                    }
+                }
+
+                .sr-lmt-plus-tabs__tab.srm-tab-btm {
+                    &.srt-base-1.srt-text-secondary {
+                        background-color: theme($theme, 'navIconBg') !important;
+                    }
+
+                    .tab-nav-icon {
+                        path {
+                            fill: theme($theme, 'navIcon');
+                        }
+                    }
+
+                    &.srm-has-5 {
+                        &.nav-tab-is-active {
+                            background-color: theme($theme, 'navIconBgActive') !important;
+
+                            .tab-nav-icon {
+
+                                path,
+                                circle {
+                                    fill: theme($theme, 'navIcon') !important;
+                                }
+                            }
+
+                            &.srm-tab-3 .st1 {
+                                path {
+                                    fill: theme($theme, 'navIconBg') !important
+                                }
+                            }
+
+                            &.srm-tab-4 .st1 {
+                                path {
+                                    fill: theme($theme, 'navIconBg') !important
+                                }
+                            }
+
+                            &.srm-tab-3 circle {
+                                fill: theme($theme, 'navIcon') !important;
+                            }
+
+                        }
+
+                    }
+
+                    &:hover {
+                        background-color: theme($theme, 'navIconBgActive') !important;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+// theme generator for mobile sr navbar
+@mixin srThemeGeneratorMobile($theme) {
+    .sr-widget-custom.mobile.#{theme($theme, 'themeName')} {
+        .sr-bb {
+            .sr-tabbedanimnav__wrapper {
+                background-color: theme($theme, 'navIconBg');
+
+                .tab-nav-icon {
+
+                    path,
+                    circle {
+                        fill: theme($theme, 'navIcon');
+                    }
+                }
+
+                .sr-tabbedanimnav__switch {
+                    background-color: theme($theme, 'mobileNavIconBg') !important;
+
+                    &.srt-base-1.srt-text-secondary {
+                        // background-color: theme($theme, 'navIconBg') !important;
+
+                        &:hover {
+                            background-color: transparent;
+                        }
+                    }
+
+                    &.srt-base-1-primary-7 {
+                        background-color: theme($theme, 'mobileNavIconBg') !important;
+
+                        .tab-nav-icon {
+                            path {
+                                fill: theme($theme, 'mobileNavIcon') !important;
+
+                            }
+                        }
+
+                        &[data='3'] {
+                            circle {
+                                fill: theme($theme, 'mobileNavIcon') !important;
+                            }
+
+                            .st1 {
+                                path {
+                                    fill: theme($theme, 'mobileNavIconBg') !important;
+                                }
+                            }
+                        }
+
+
+                        &[data='4'] .st1 {
+                            path {
+                                fill: theme($theme, 'mobileNavIconBg') !important;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+
+    .sr-widget-plus.mobile.#{theme($theme, 'themeName')} {
+
+        .sr-bb {
+            .sr-lmt-plus-tabs__wrapper-inner.srt-base-1 {
+                background-color: theme($theme, 'navIconBg');
+
+                .tab-nav-icon {
+
+                    path,
+                    circle {
+                        fill: theme($theme, 'navIcon');
+                    }
+                }
+
+                .sr-lmt-plus-tabs__tab.srm-tab-btm {
+                    &.srm-has-5 {
+                        &.nav-tab-is-active {
+                            .tab-nav-icon {
+
+                                path,
+                                circle {
+                                    fill: theme($theme, 'mobileNavIcon') !important;
+                                }
+                            }
+
+                            &.srm-tab-3 .st1 {
+                                path {
+                                    fill: theme($theme, 'mobileNavIconBg') !important
+                                }
+                            }
+
+                            &.srm-tab-4 .st1 {
+                                path {
+                                    fill: theme($theme, 'mobileNavIconBg') !important
+                                }
+                            }
+
+                            &.srm-tab-3 circle {
+                                fill: theme($theme, 'mobileNavIcon') !important;
+                            }
+
+                            &:hover {
+                                background-color: transparent;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+    .mobile.sr-widget-custom.#{theme($theme, 'themeName')} {
+        .sr-bb {
+            .sr-tabbedanimnav__wrapper {
+                background-color: theme($theme, 'mobileNavIconBg') !important;
+            }
+        }
+    }
+
+    .mobile.sr-widget-plus.#{theme($theme, 'themeName')} {
+        .sr-bb {
+            .sr-lmt-plus-tabs__wrapper-inner.srt-base-1 {
+                background-color: theme($theme, 'mobileNavIconBg') !important;
+            }
+        }
+    }
+}

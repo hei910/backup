@@ -1,0 +1,28 @@
+{
+    "mobile": {
+        "suppliers": {
+            "livecasino": {
+                "ag": "AG厅",
+                "bg": "BG厅"
+            }
+        },
+        "components": {
+            "footer": {
+                "licensesTitle": "正规牌照",
+                "about": "关于"
+            },
+            "downloadAppModal": {
+                "install": "安装",
+                "hint": "请在“设定” App检视描述档并安装",
+                "app": {
+                    "title": "6686体育APP",
+                    "subtitle": "娱乐，体育，随时随地畅玩"
+                },
+                "web": {
+                    "title": "6686网页版",
+                    "subtitle": "快速游戏，永久安装入口"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="36" viewBox="0 0 48 36">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1377" data-name="Rectangle 1377" width="48" height="36" transform="translate(0 0)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="email-icon" transform="translate(0 0)">
+    <path id="Path_15" data-name="Path 15" d="M0,63.347,13.846,45.242,0,32.792Z" transform="translate(0 -29.717)" fill="#fff"/>
+    <path id="Path_16" data-name="Path 16" d="M364.308,45.242,378.154,63.35V32.794Z" transform="translate(-330.155 -29.719)" fill="#fff"/>
+    <g id="Group_1705" data-name="Group 1705" transform="translate(0 0)">
+      <g id="Group_1704" data-name="Group 1704" clip-path="url(#clip-path)">
+        <path id="Path_17" data-name="Path 17" d="M51.133,17.156,70.215,0H27.341L46.413,17.148a3.492,3.492,0,0,0,4.72.008" transform="translate(-24.778 0)" fill="#fff"/>
+        <path id="Path_18" data-name="Path 18" d="M60.194,196.114a7.465,7.465,0,0,1-10.084-.008L47.988,194.2,34.38,211.992H75.934L62.326,194.2Z" transform="translate(-31.157 -175.992)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

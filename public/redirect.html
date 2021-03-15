@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript">
+        function isMobile() {
+            if (/Android|webOS|iPhone|iPad|BlackBerry|Windows Phone|Opera Mini|IEMobile|Mobile/i.test(navigator.userAgent))
+                return true;
+
+            return false;
+        }
+
+        var mobileRedirectLink = '/mobile/main'
+        var desktopRedirectLink = '/d20'
+
+        window.location.href = isMobile() ? mobileRedirectLink : desktopRedirectLink
+    </script>
+</body>
+</html>

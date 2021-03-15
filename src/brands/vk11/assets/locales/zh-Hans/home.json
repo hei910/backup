@@ -1,0 +1,46 @@
+{
+    "mobile": {
+        "licensesTitle": "正规牌照",
+        "gamesTitle": "游戏供应商",
+        "about": "关于",
+        "sections": {
+            "sport": {
+                "mainTitle": "体育",
+                "subTitle": "礼金高达礼金高达礼金高达礼",
+                "cardTitle": "{{brandName}}"
+            },
+            "liveCasino": {
+                "mainTitle": "真人",
+                "subTitle": "返水最高",
+                "cardTitle1": "AG厅",
+                "cardTitle2": "BG厅"
+            },
+            "esport": {
+                "cardTitle": "泛亚电竞"
+            }
+        }
+    },
+    "desktop": {
+        "contact": "联络客服",
+        "transfer": "转帐",
+        "lottery": "彩票",
+        "sport": "体育赛事",
+        "brandSport": "{{brandName}}",
+        "liveCasino": "真人游戏",
+        "chess": "棋牌游戏",
+        "slot": "老虎机",
+        "fish": "捕鱼游戏",
+        "liveMatch": "直播赛事",
+        "hd": "高清",
+        "broadcast": "直播",
+        "textRow1": "热点赛事不错过，体育赛事直播分析",
+        "textRow2": "首选平台",
+        "textRow3": "最高赔率傲视全球",
+        "textRow4": "势不可挡",
+        "betNow": "立即下注",
+        "football": "足球",
+        "basketball": "篮球",
+        "tennis": "网球",
+        "baseball": "棒球"
+    }
+}

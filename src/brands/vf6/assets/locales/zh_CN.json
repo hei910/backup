@@ -1,0 +1,181 @@
+{
+    "testing1": "你好123456HI",
+    "brandName": "ubs",
+    "general": {
+        "regionBlock": {
+            "title": "当前地区受限制",
+            "ip": "您的IP来自",
+            "content1": "您的当前地区不属于我们的服务范围",
+            "content2": "如有任何疑问请联系",
+            "content3": "或拨打到"
+        },
+        "maintenancePage": {
+            "title": "系统维护公告",
+            "dear": "尊敬的会员",
+            "content1": "您好 : 為了給您带来更快捷更舒适的游戏，决定于{{startTime}}进行维护，给您带来的不便，还请您谅解，祝您生活愉快！",
+            "content2": "在此期间给您带来的不便我们向您致以深切的歉意，感谢您的支持与信赖，期待您在维护完成后光临。",
+            "content3": {
+                "span1": "{{brandName}} 将于",
+                "endTime": " {{endTime}} ",
+                "span2": "恢复正常。"
+            },
+            "content4": "给您带来的不便，我们深感抱歉。如果您需要任何的协助，请通过以下的选项联系我们客服团队，感谢您的耐心等候。"
+        },
+        "contactUs": {
+            "email": {
+                "title": "电子邮件",
+                "24HrService": "24小时全天服务"
+            },
+            "phone": {
+                "title": "电话咨询",
+                "cs": "客服",
+                "complain": "投诉"
+            },
+            "cs": {
+                "title": "在线客服",
+                "content": "24小时全天候咨询客户服务人员打开在线咨询"
+            }
+        },
+        "slotMachine": {
+            "emptyResult": {
+                "span1": "搜寻结果",
+                "span2": "共搜索到0条关于“{{searchWord}}”的结果。",
+                "span3": "暂无相关内容"
+            }
+        }
+    },
+    "mobile": {
+        "home": {
+            "licensesTitle": "正规牌照",
+            "gamesTitle": "游戏供应商",
+            "about": "关于",
+            "sections": {
+                "sport": {
+                    "mainTitle": "体育赛事",
+                    "subTitle": "SPORT EVENTS",
+                    "cardTitle1": "进入APP",
+                    "cardTitle2": "进入WAP"
+                },
+                "liveCasino": {
+                    "mainTitle": "真人荷官",
+                    "subTitle": "LIVE DEALER",
+                    "cardTitle1": "AG厅",
+                    "cardTitle2": "BG厅"
+                },
+                "esport": {
+                    "mainTitle": "电子竞技",
+                    "subTitle": "ESPORT",
+                    "cardTitle1": "泛亚电竞"
+                },
+                "lottery": {
+                    "mainTitle": "彩票PK10",
+                    "subTitle": "LOTTERY PK10",
+                    "cardTitle1": "彩票PK10"
+                },
+                "boardGame": {
+                    "mainTitle": "棋牌游戏",
+                    "subTitle": "BOARD GAMES",
+                    "cardTitle1": "6686棋牌",
+                    "cardTitle2": "开元棋牌"
+                },
+                "casino": {
+                    "mainTitle": "老虎机",
+                    "subTitle": "SLOT GAMES",
+                    "cardTitle1": "MG老虎机",
+                    "cardTitle2": "DT老虎机",
+                    "cardTitle3": "PT老虎机",
+                    "cardTitle4": "PG老虎机",
+                    "cardTitle5": "CQ9老虎机",
+                    "cardTitle6": "JDB老虎机"
+                },
+                "fishHunter": {
+                    "mainTitle": "捕鱼游戏",
+                    "subTitle": "FISH HUNTER",
+                    "cardTitle1": "捕鱼王"
+                }
+            }
+        },
+        "downloadApp": {
+            "ios": {
+                "member": {
+                    "info": "源于信用与科技的魅力尽在{{brandName}}"
+                },
+                "guest": {
+                    "info": "源于信用与科技的魅力尽在{{brandName}}"
+                }
+            },
+            "android": {
+                "info": "源于信用与科技的魅力尽在{{brandName}}"
+            }
+        }
+    },
+    "desktop": {
+        "home": {
+            "contact": "联络客服",
+            "transfer": "转帐",
+            "lottery": "彩票",
+            "sport": "体育赛事",
+            "brandSport": "6686体育",
+            "liveCasino": "真人游戏",
+            "chess": "棋牌游戏",
+            "slot": "老虎机",
+            "fish": "捕鱼游戏",
+            "liveMatch": "直播赛事",
+            "hd": "高清",
+            "broadcast": "直播",
+            "textRow1": "热点赛事不错过，体育赛事直播分析",
+            "textRow2": "首选平台",
+            "textRow3": "最高赔率傲视全球",
+            "textRow4": "势不可挡",
+            "betNow": "立即下注",
+            "football": "足球",
+            "basketball": "篮球",
+            "tennis": "网球",
+            "baseball": "棒球"
+        },
+        "downloadApp": {
+            "product": "APP支持产品",
+            "apple": "iPhone",
+            "android": "安卓",
+            "system": "系统兼容版本",
+            "iosVer": "iOS 10.1或以上",
+            "androidVer": "安卓5.0或以上"
+        },
+        "betRecord": {
+            "betCategories": {
+                "sportV2": "体育",
+                "sportV1": "体育",
+                "sports-settled-bet": "体育",
+                "sports-unsettled-bet": "体育",
+                "bg": "BG厅",
+                "ag": "AG厅/捕鱼游戏",
+                "mg": "MG老虎机",
+                "dt": "DT老虎机",
+                "ky": "开元棋牌",
+                "nn": "6686棋牌",
+                "loto": "彩票",
+                "lottery-settled-bet": "彩票",
+                "lottery-unsettled-bet": "彩票"
+            },
+            "navBarTitles": {
+                "all-bet": "全部注单",
+                "sportV2": "全部注单",
+                "sports-settled-bet": "已结算注单",
+                "sports-unsettled-bet": "未结算注单",
+                "bg": "BG厅",
+                "ag": "AG厅/捕鱼游戏",
+                "mg": "MG老虎机",
+                "dt": "DT老虎机",
+                "ky": "开元棋牌",
+                "nn": "6686棋牌",
+                "transaction-history-deposit": "存款",
+                "transaction-history-withdrawal": "提款",
+                "transaction-history-transfer": "转账",
+                "loto": "全部注单",
+                "lottery-settled-bet": "已结算注单",
+                "lottery-unsettled-bet": "未结算注单",
+                "summary": "摘要"
+            }
+        }
+    }
+}

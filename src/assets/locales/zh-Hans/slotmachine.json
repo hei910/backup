@@ -1,0 +1,38 @@
+{
+    "common": {
+        "title": "{{type}}老虎机",
+        "maintenance": {
+            "systemMain": "系统维护",
+            "content1": "在此期间给您带来的不便我们向您致以深切的歉意，感谢您的支持与信赖，期待您在维护完成后光临。",
+            "content2": "给您带来的不便，我们深感抱歉。",
+            "content3": "如果您需要任何的协助，请通过以下选项联系我们客服团队，感谢您的耐心等候。",
+            "phone": "电话",
+            "email": "电子邮箱",
+            "returnTime": "将于 {{time}} 恢复正常。",
+            "will": "将于",
+            "returnNormal": "恢复正常。",
+            "hotline": "客服热线",
+            "game": "游戏"
+        },
+        "emptyResult": {
+            "span1": "搜索到0条关于“{{searchWord}}”的结果。",
+            "span2": "暂无结果",
+            "span3": "暂无相关内容"
+        },
+        "hotGames": {
+            "rank": "第{{rank}}位",
+            "popularity": "人气游戏",
+            "start": "开始游戏",
+            "trial": "试玩",
+            "rating": "评价"
+        },
+        "searchBar": {
+            "placeholder": "请输入游戏名称",
+            "search": "搜索"
+        }
+    },
+    "desktop": {
+        "slotText": "{{type}} 老虎机"
+    },
+    "mobile": {}
+}

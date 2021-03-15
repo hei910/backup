@@ -1,0 +1,479 @@
+{
+    "button": {
+        "cancel": "Batal",
+        "submit": ""
+    },
+    "betRecord": {
+        "title": "Catatan Taruhan",
+        "loading": "Loading"
+    },
+    "betPanel": {
+        "minute": "menit",
+        "all": "Semua",
+        "dataFormatError": "",
+        "empty": "Pilihan ini tidak memiliki pasar",
+        "getDataError": "Ada masalah dalam memperoleh informasi pasar",
+        "goal": "Bola",
+        "halvesView": "",
+        "hiddenQuarters": "",
+        "league": "Liga",
+        "loadingData": "Handikap dalam pemuatan",
+        "menu": "",
+        "or": "Atau",
+        "orUp": "Atau di atas",
+        "result": "Hasil pertandingan",
+        "searchPlaceholder": "Nama liga atau tim",
+        "searchSeason": "请输入联赛名称",
+        "searchTeam": "请输入球队名",
+        "selectAll": "",
+        "winOrLose": "Menang / Rugi",
+        "win": "Menang",
+        "lose": "Rugi",
+        "showQuarters": "",
+        "standardView": "Tampilan standar",
+        "amView": "",
+        "1x2View": "",
+        "moreMarket": "Lihat semua pasar",
+        "refresh": "Segarkan",
+        "statistic": "Statistik",
+        "hasLiveShow": "Dalam-Putar Langsung",
+        "neutral": "Posisi netral",
+        "upComingInplay": "Keping instan",
+        "full_1x2": "Menangkan semua game",
+        "full_ah": "Rintangan",
+        "full_ou": "Ukuran bidang penuh",
+        "half_1x2": "Kemenangan babak pertama",
+        "half_ah": "Setengah lulus",
+        "half_ou": "Setengah ukuran",
+        "higher_rate": "Peluang lebih tinggi tersedia"
+    },
+    "betList": {
+        "acceptance": "Terima peluang yang diperbarui",
+        "addToBetList": "Tambahkan opsi ke slip taruhan",
+        "allStake": "Semua taruhan",
+        "back": "Kembali",
+        "bet": "Taruhan",
+        "betChanged": "Peluang sudah diubah",
+        "betClosed": "Handikap sudah ditutup",
+        "comfirmMessage": "Konfirmasi slip taruhan, silakan periksa taruhan Anda",
+        "failedMessage": "Taruhan gagal",
+        "header": "Slip taruhan",
+        "keepBetList": "Opsi pemilihan",
+        "maximumStake": "Tertinggi",
+        "minimumStake": "Terendah",
+        "mixedMatchStatusMessage": "",
+        "multipleBetTitle": "Taruhan sukses digandakan",
+        "sameMatchMessage": "",
+        "showComfirmation": "Tampilkan taruhan yang dikonfirmasi",
+        "stake": "Jumlah taruhan",
+        "stakeLimit": "Batas",
+        "successMessage": "Taruhan anda sudah di terima",
+        "toWin": "Jumlah yang dapat dimenangkan"
+    },
+    "betDetail": {
+        "popular": "",
+        "all": "",
+        "ahOu": "",
+        "ou": "",
+        "firstHalf": "",
+        "corner": "",
+        "fiftennMinutes": "",
+        "special": "",
+        "other": ""
+    },
+    "guide": {
+        "title": "Cara permainan"
+    },
+    "liveCenter": {
+        "header": "Pusat siaran langsung",
+        "informationCenter": "Pusat informasi",
+        "liabilityMessage": "Semua konten langsung yang ditampilkan di bagian ini hanya untuk referensi, dan anggota juga dapat menggunakan konten ini sebagai panduan. Kami akan melakukan segala upaya untuk memastikan bahwa konten yang ditampilkan sudah benar, dan Zhibo Sports tidak akan bertanggung jawab atas kesalahan apa pun. Untuk skor dalam game, seperti handicap dalam bola, skor yang benar yang ditunjukkan pada slip taruhan pada saat taruhan akan berlaku",
+        "noLive": "Saat ini tidak ada pertandingan siaran langsung"
+    },
+    "contactUs": {
+        "header": ""
+    },
+    "liveStatus": {
+        "basketball": {
+            "q1": "Quarter Pertama",
+            "q2": "Quarter Kedua",
+            "q3": "ThirdQuarter",
+            "q4": "FourthQuarter",
+            "ot": "lembur",
+            "b1": "",
+            "b2": "",
+            "b3": "",
+            "2h": "Paruh Kedua",
+            "1h": "Babak Pertama",
+            "regularTime": "",
+            "beforeOvertime": ""
+        },
+        "football": {
+            "1h": "",
+            "2h": "",
+            "ht": "",
+            "ot": "",
+            "bfpk": "",
+            "pk": "",
+            "atpk": "",
+            "h2nt": ""
+        },
+        "tennis": {
+            "s1": "",
+            "s2": "",
+            "s3": "",
+            "s4": "",
+            "s5": "",
+            "delay": "",
+            "1won": "",
+            "2won": "",
+            "onCourt": "",
+            "warmingUp": "",
+            "betweenPoints": "",
+            "pointInProgress": "",
+            "challenge": "",
+            "playSuspended": "",
+            "shortDelay": ""
+        },
+        "baseball": {
+            "1intop": "",
+            "1inbottom": "",
+            "2intop": "",
+            "2inbottom": "",
+            "3intop": "",
+            "3inbottom": "",
+            "4intop": "",
+            "4inbottom": "",
+            "5intop": "",
+            "5inbottom": "",
+            "6intop": "",
+            "6inbottom": "",
+            "7intop": "",
+            "7inbottom": "",
+            "8intop": "",
+            "8inbottom": "",
+            "9intop": "",
+            "9inbottom": "",
+            "exintop": "",
+            "exinbottom": "",
+            "bt1bottom1": "",
+            "bt2bottom1": "",
+            "bt2bottom2": "",
+            "bt3bottom2": "",
+            "bt3bottom3": "",
+            "bt4bottom3": "",
+            "bt4bottom4": "",
+            "bt5bottom4": "",
+            "bt5bottom5": "",
+            "bt6bottom5": "",
+            "bt6bottom6": "",
+            "bt7bottom6": "",
+            "bt7bottom7": "",
+            "bt8bottom7": "",
+            "bt8bottom8": "",
+            "bt9bottom8": "",
+            "bt9bottom9": "",
+            "btEIbottom9": "",
+            "btEIbottomEI": "",
+            "inProgress": "",
+            "suspended": ""
+        }
+    },
+    "markets": {
+        "soccer": {
+            "1x2": "Dimenangkan sendiri",
+            "1x21st": "Dimenangkan sendiri - Babak pertama",
+            "1x22nd": "",
+            "1x2ctid": "Dimenangkan sendiri",
+            "1x21stctid": "Dimenangkan sendiri - Babak pertama",
+            "1000882": "",
+            "ah": "Beri bola",
+            "ah1st": "Beri bola - Babak pertama",
+            "ah2nd": "",
+            "ahctid": "Beri bola",
+            "ah1stctid": "Beri bola - Babak pertama",
+            "cs": "",
+            "cs1st": "",
+            "tts1st": "",
+            "hf": "Babak setengah / Babak penuh",
+            "oe": "Tunggal / Ganda",
+            "oe1st": "Tunggal / Ganda - Babak Pertama",
+            "oectid": "Tunggal / Ganda",
+            "oe1stctid": "Tunggal / Ganda - Babak Pertama",
+            "ou": "Masuk bola:Besar / Kecil",
+            "ou1st": "Masuk bola:Besar / Kecil - Babak pertama",
+            "ouctid": "",
+            "ou1stctid": "",
+            "tg": "Jumlah gol",
+            "tg1st": "Jumlah gol - babak pertama",
+            "tgctid": "",
+            "tg1stctid": "",
+            "scoant": "",
+            "sco1st": "",
+            "scolast": "",
+            "bts": "",
+            "eps": "",
+            "or": ""
+        },
+        "baseball": {
+            "ml": "",
+            "oufin": "",
+            "ou": "",
+            "ah": "",
+            "1x2": "",
+            "oe": "Tunggal / Ganda",
+            "ahf5in": "",
+            "ouf5in": "",
+            "t1ouctid": "",
+            "t2ouctid": ""
+        },
+        "basketball": {
+            "ml": "",
+            "mlh2": "",
+            "ml1st": "",
+            "mlq1": "",
+            "mlq2": "",
+            "mlq3": "",
+            "mlq4": "",
+            "ah": "",
+            "ahh2": "",
+            "ah1st": "",
+            "ahq1": "",
+            "ahq2": "",
+            "ahq3": "",
+            "ahq4": "",
+            "ou": "",
+            "ouh2": "",
+            "ou1st": "",
+            "ouq1": "",
+            "ouq2": "",
+            "ouq3": "",
+            "ouq4": "",
+            "t1ouctid": "",
+            "t2ouctid": "",
+            "oe": "",
+            "oe1st": "",
+            "oeh2": "",
+            "oeq1": "",
+            "oeq2": "",
+            "oeq3": "",
+            "oeq4": ""
+        },
+        "tennis": {
+            "ml": "",
+            "mls1": "",
+            "mls2": "",
+            "oufts": "",
+            "ous1": "",
+            "ous2": "",
+            "ahfts": "Memberi ronde",
+            "ahs1": "",
+            "ahs2": "",
+            "ah": "Memberi Set",
+            "oefts": "",
+            "inplay": {
+                "ml": "",
+                "mls1": "",
+                "mls2": ""
+            }
+        },
+        "ctid": {
+            "willAdvance": "会晋级",
+            "cornerBall": "角球",
+            "penalty": "罚牌数",
+            "teamGoal": "球队进球数",
+            "fifteenStart": "15 分钟进球数: 开场 - 14:59 分钟",
+            "fifteen15": "15 分钟进球数: 15:00 - 29:59 分钟",
+            "fifteen30": "15 分钟进球数: 30:00 分钟 - 半场",
+            "fifteenHalf": "15 分钟进球数: 下半场开始 - 59:59 分钟",
+            "fifteen60": "15 分钟进球数: 60:00 - 74:59 分钟",
+            "fifteen75": "15 分钟进球数: 75:00 分钟 - 全场",
+            "teamScore": "球队得分"
+        }
+    },
+    "matchStatus": {
+        "live": ""
+    },
+    "menu": {
+        "date": {
+            "all": "Papan tampilan di pagi hari",
+            "inplay": "Bola gulungan / petanque",
+            "parlay": "Bola gulungan / petanque",
+            "today": "Hari ini",
+            "outright": "",
+            "sport": "",
+            "upcoming": ""
+        },
+        "markets": {
+            "baseball": {
+                "am": "Beri bola & Papan Besar Kecil",
+                "ml": "Dimenangkan sendiri",
+                "oe": "Jumlah bola masuk - Tunggal/Ganda",
+                "or": "Juara"
+            },
+            "basketball": {
+                "am": "Beri bola & Besar Kecil",
+                "ml": "Papan yang dimenangkan sendiri",
+                "oe": "Jumlah bola masuk - Tunggal/Ganda",
+                "or": "Juara"
+            },
+            "soccer": {
+                "am": "Beri bola & Besar Kecil",
+                "cs": "Tebak skor",
+                "had": "Papan yang dimenangkan sendiri Babak setengah & babak penuh",
+                "htft": "Babak setengah/Babak penuh",
+                "oe": "Jumlah bola masuk - Tunggal/Ganda",
+                "or": "Juara",
+                "tg": "Jumlah bola yang masuk"
+            },
+            "tennis": {
+                "am": "Beri bola & Besar Kecil",
+                "cs": "Papan jumlah tebak skor",
+                "ml": "Dimenangkan sendiri",
+                "or": "Juara"
+            }
+        },
+        "title": "Menu olahraga",
+        "upcoming": "",
+        "search": "",
+        "leftMenu": {
+            "sportsMain": "",
+            "inplay": "",
+            "today": "",
+            "upcoming": "",
+            "all": "",
+            "parlay": "",
+            "outright": ""
+        }
+    },
+    "outcomes": {
+        "d": "Seri",
+        "ev": "Ganda",
+        "od": "Tunggal",
+        "other": "Skor lainnya",
+        "ov": "Besar",
+        "un": "Kecil",
+        "yes": "",
+        "no": ""
+    },
+    "rules": {
+        "title": "Peraturan permainan"
+    },
+    "sports": {
+        "baseball": "Bola kasti",
+        "basketball": "Bola basket",
+        "soccer": "Sepakbola",
+        "tennis": "Bola tenis"
+    },
+    "scoreBarInfo": {
+        "points": {
+            "basketball": {
+                "1h": "",
+                "ft": "",
+                "q1": "",
+                "q2": "",
+                "q3": "",
+                "q4": "",
+                "2h": "",
+                "ot": ""
+            },
+            "tennis": {
+                "ftg": "",
+                "s1": "1",
+                "s2": "2",
+                "s3": "3",
+                "s4": "4",
+                "s5": "5",
+                "ft": "",
+                "p": ""
+            }
+        },
+        "period": {
+            "s1": "",
+            "s2": "",
+            "s3": "",
+            "s4": "",
+            "s5": ""
+        },
+        "round": {
+            "3": "Tiga set dan dua kemenangan",
+            "5": ""
+        }
+    },
+    "table": {
+        "subheader": {
+            "teamMember": "",
+            "first": "",
+            "last": "",
+            "anytime": "",
+            "draw": "",
+            "ng": "",
+            "tts1st": "",
+            "ttslast": ""
+        },
+        "eps": {
+            "eps": "",
+            "before": "",
+            "now": ""
+        }
+    },
+    "error": {
+        "betFail": "Taruhan gagal",
+        "unknownException": "UnknownError",
+        "badRequest": "Bad Request",
+        "unitDuplicated": "Duplicate Bet",
+        "legInvalid": "Kurang dari dua sesi",
+        "fixtureDuplicated": "Tidak ada taruhan pada pertandingan yang sama",
+        "playerNotExist": "Player tidak ada",
+        "balanceNotEnough": "Saldo Anda tidak mencukupi. Silakan setor dulu",
+        "invalidOutcome": "Outvalid Outcome",
+        "oddsinfoError": "Gagal mendapatkan peluang",
+        "invalidBet": "1 opsi atau lebih dimatikan. Hapus dari slip taruhan Anda.",
+        "outOfSelection": "Pilihan tidak valid",
+        "invalidOdds": "Odds Tidak Valid",
+        "invalidStake": "Silakan masukkan jumlah taruhan yang valid",
+        "tidak sah": "Silakan masuk lagi.",
+        "betClosed": "Pasar ditutup.",
+        "networkException": "Pengecualian jaringan",
+        "systemMaintenance": "Pemeliharaan sistem, silakan coba lagi nanti",
+        "minStake": "Batas taruhan minimum adalah:",
+        "maxStake": "Taruhan melampaui batas! Taruhan maksimum:",
+        "limtStake": "Silakan masukkan saham Anda di",
+        "invalidStakeNumber": "Silakan masukkan kembali jumlahnya",
+        "unknown13": "Pengecualian jaringan # 13 Segarkan dan coba lagi",
+        "unknown14": "Pengecualian jaringan # 14 Segarkan dan coba lagi",
+        "unknown15": "Pengecualian jaringan # 15 Segarkan dan coba lagi",
+        "unknown16": "Pengecualian jaringan # 16 Segarkan dan coba lagi",
+        "unknown17": "Pengecualian jaringan # 17 Segarkan dan coba lagi",
+        "unknown19": "Pengecualian jaringan # 19 Segarkan dan coba lagi",
+        "unknown21": "Pengecualian jaringan # 21 Segarkan dan coba lagi",
+        "others": "Pengecualian jaringan Segarkan dan coba lagi"
+    },
+    "rightMenu": {
+        "betRecord": "catatan taruhan",
+        "goback": "Kembali ke versi lama",
+        "loginText": "Masuk"
+    },
+    "topPage": {
+        "inplay": "",
+        "popular": "",
+        "sports": "",
+        "inplaySubheader": {
+            "football": "",
+            "basketball": "",
+            "tennis": "",
+            "baseball": ""
+        },
+        "topGames": ""
+    },
+    "competition": {
+        "allDates": "All Dates",
+        "future": "其他早盤",
+        "allMatches": "所有賽事",
+        "today": "Hari ini",
+        "todaysMatches": "今日賽事",
+        "coupons": "參賽表",
+        "matches": "賽事",
+        "outrights": "冠軍盤口"
+    }
+}
